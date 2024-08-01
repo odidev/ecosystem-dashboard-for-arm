@@ -14,17 +14,17 @@ optional_info:
     support_caveats:
     alternative_options:
     getting_started_resources:
-        arm_content: 
-        partner_content: 
+        arm_content:
+        partner_content:
         official_docs: https://zipkin.io/pages/quickstart.html
     arm_recommended_minimum_version:
         version_number:
-        release_date: 
+        release_date:
 
 
 optional_hidden_info:
     release_notes__supported_minimum: https://github.com/openzipkin/zipkin/releases/tag/2.22.1
     release_notes__recommended_minimum:
-    other_info: 
+    other_info:
 
 ---
