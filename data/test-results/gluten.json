@@ -5,10 +5,10 @@
     "version": "1.1.1"
   },
   "run": {
-    "id": "25952440305",
+    "id": "26325546930",
     "attempt": "1",
-    "url": "https://github.com/ArmDeveloperEcosystem/ecosystem-dashboard-for-arm/actions/runs/25952440305/job/76292769625",
-    "timestamp": "2026-05-16T04:12:43Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26325546930/job/77502519075",
+    "timestamp": "2026-05-23T06:57:13Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -17,52 +17,52 @@
     "job_name": "test-gluten / test-gluten"
   },
   "tests": {
-    "passed": 6,
+    "passed": 5,
     "failed": 0,
-    "skipped": 0,
-    "duration_seconds": 46,
+    "skipped": 1,
+    "duration_seconds": 0,
     "details": [
       {
         "name": "Test 1 - Baseline package evidence",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/ArmDeveloperEcosystem/ecosystem-dashboard-for-arm/actions/runs/25952440305/job/76292769625#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26325546930/job/77502519075#step:7:1"
       },
       {
         "name": "Test 2 - Baseline version and release alignment",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/ArmDeveloperEcosystem/ecosystem-dashboard-for-arm/actions/runs/25952440305/job/76292769625#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26325546930/job/77502519075#step:8:1"
       },
       {
         "name": "Test 3 - Package-specific source or docs evidence",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/ArmDeveloperEcosystem/ecosystem-dashboard-for-arm/actions/runs/25952440305/job/76292769625#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26325546930/job/77502519075#step:9:1"
       },
       {
         "name": "Test 4 - Arm64 support gate",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/ArmDeveloperEcosystem/ecosystem-dashboard-for-arm/actions/runs/25952440305/job/76292769625#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26325546930/job/77502519075#step:10:1"
       },
       {
         "name": "Test 5 - Bounded package-specific smoke",
         "status": "passed",
-        "duration_seconds": 100,
-        "url": "https://github.com/ArmDeveloperEcosystem/ecosystem-dashboard-for-arm/actions/runs/25952440305/job/76292769625#step:11:1"
+        "duration_seconds": 211,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26325546930/job/77502519075#step:11:1"
       },
       {
         "name": "Test 6 - Regression Validation",
-        "status": "passed",
-        "duration_seconds": 46,
-        "url": "https://github.com/ArmDeveloperEcosystem/ecosystem-dashboard-for-arm/actions/runs/25952440305/job/76292769625#step:12:1",
+        "status": "skipped",
+        "duration_seconds": 0,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26325546930/job/77502519075#step:12:1",
         "current_version": "1.1.1",
-        "latest_version": "1.6.0",
-        "next_installed_version": "1.6.0",
-        "decision": "limited_cpu_smoke_validated",
-        "regression_result": "Arm preflight proof passed on Arm64",
-        "comparison": "Test 6 reran a scoped Gluten Arm preflight against the next stable source candidate: Maven project discovery, gluten-core source/module validation, and root effective-POM resolution. Full Spark plus native Velox/ClickHouse backend runtime remains scoped to a heavier integration lane."
+        "latest_version": "metadata_review",
+        "next_installed_version": "metadata_review",
+        "decision": "runtime_validation_not_automated",
+        "regression_result": "Automatic next-version resolution needs manual review and runtime validation is not automated",
+        "comparison": "The workflow could not derive comparable stable version tags automatically from apache/incubator-gluten. It also does not install and execute the package on Arm64, so a package-specific runtime lane is required."
       }
     ]
   },
@@ -77,9 +77,9 @@
     "regression_applicability": "applicable",
     "regression_reason": "",
     "regression_note": "",
-    "regression_status": "passed",
-    "regression_decision": "limited_cpu_smoke_validated",
-    "production_refreshed_at": "2026-05-16T05:30:01.167339+00:00",
+    "regression_status": "skipped",
+    "regression_decision": "runtime_validation_not_automated",
+    "production_refreshed_at": "2026-05-23T08:12:59.586300+00:00",
     "publish_state": "published"
   }
 }

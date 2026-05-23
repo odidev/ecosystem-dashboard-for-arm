@@ -2,14 +2,14 @@
   "schema_version": "2.0",
   "package": {
     "name": "Wireshark",
-    "version": "4.6.3"
+    "version": "unknown"
   },
   "run": {
-    "id": "25952443442",
+    "id": "26325549802",
     "attempt": "1",
-    "url": "https://github.com/ArmDeveloperEcosystem/ecosystem-dashboard-for-arm/actions/runs/25952443442/job/76292778624",
-    "timestamp": "2026-05-16T04:12:52Z",
-    "status": "success",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26325549802/job/77502527780",
+    "timestamp": "2026-05-23T06:55:57Z",
+    "status": "failure",
     "runner": {
       "os": "ubuntu-24.04",
       "arch": "arm64"
@@ -17,52 +17,52 @@
     "job_name": "test-wireshark / test-wireshark"
   },
   "tests": {
-    "passed": 5,
-    "failed": 0,
-    "skipped": 1,
+    "passed": 0,
+    "failed": 1,
+    "skipped": 5,
     "duration_seconds": 0,
     "details": [
       {
         "name": "Test 1 - Check tshark binary exists",
-        "status": "passed",
+        "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/ArmDeveloperEcosystem/ecosystem-dashboard-for-arm/actions/runs/25952443442/job/76292778624#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26325549802/job/77502527780#step:6:1"
       },
       {
         "name": "Test 2 - Check exact version output",
-        "status": "passed",
+        "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/ArmDeveloperEcosystem/ecosystem-dashboard-for-arm/actions/runs/25952443442/job/76292778624#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26325549802/job/77502527780#step:7:1"
       },
       {
         "name": "Test 3 - Check help output",
-        "status": "passed",
+        "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/ArmDeveloperEcosystem/ecosystem-dashboard-for-arm/actions/runs/25952443442/job/76292778624#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26325549802/job/77502527780#step:8:1"
       },
       {
         "name": "Test 4 - Architecture verification",
-        "status": "passed",
+        "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/ArmDeveloperEcosystem/ecosystem-dashboard-for-arm/actions/runs/25952443442/job/76292778624#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26325549802/job/77502527780#step:9:1"
       },
       {
         "name": "Test 5 - Functional validation",
-        "status": "passed",
+        "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/ArmDeveloperEcosystem/ecosystem-dashboard-for-arm/actions/runs/25952443442/job/76292778624#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26325549802/job/77502527780#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
-        "status": "skipped",
+        "status": "failed",
         "duration_seconds": 0,
-        "url": "https://github.com/ArmDeveloperEcosystem/ecosystem-dashboard-for-arm/actions/runs/25952443442/job/76292778624#step:11:1",
-        "current_version": "4.6.3",
-        "latest_version": "4.6.3",
-        "next_installed_version": "4.6.3",
-        "decision": "no_newer_stable_available",
-        "regression_result": "No newer stable Wireshark release is available for Arm64 validation",
-        "comparison": "Wireshark 4.6.3 is both the pinned Arm64 source baseline and the newest stable public Wireshark source release currently published, so there is no newer stable source tarball to validate in Test 6 yet."
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26325549802/job/77502527780#step:11:1",
+        "current_version": "unknown",
+        "latest_version": "unknown",
+        "next_installed_version": "not_installed",
+        "decision": "result_not_emitted",
+        "regression_result": "Regression validation step failed before emitting terminal outputs",
+        "comparison": "The package job failed in Actions, but the workflow did not emit a terminal regression decision before exiting."
       }
     ]
   },
@@ -70,16 +70,16 @@
     "contract_version": "2.0",
     "package_slug": "wireshark",
     "dashboard_link": "/linux/opensource_packages/wireshark",
-    "badge_status": "passing",
-    "core_failed": 0,
+    "badge_status": "failing",
+    "core_failed": 5,
     "batch_title": "Batch 17",
     "job_url_resolution_status": "central_exact",
     "regression_applicability": "applicable",
-    "regression_reason": "",
-    "regression_note": "",
-    "regression_status": "skipped",
-    "regression_decision": "no_newer_stable_available",
-    "production_refreshed_at": "2026-05-16T05:30:01.327328+00:00",
+    "regression_reason": "result_not_emitted",
+    "regression_note": "The Test 6 step failed before the workflow emitted a terminal regression decision.",
+    "regression_status": "failed",
+    "regression_decision": "result_not_emitted",
+    "production_refreshed_at": "2026-05-23T08:12:59.670785+00:00",
     "publish_state": "published"
   }
 }

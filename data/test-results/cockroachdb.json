@@ -5,10 +5,10 @@
     "version": "v25.1.1"
   },
   "run": {
-    "id": "25952443442",
+    "id": "26325549802",
     "attempt": "1",
-    "url": "https://github.com/ArmDeveloperEcosystem/ecosystem-dashboard-for-arm/actions/runs/25952443442/job/76292778423",
-    "timestamp": "2026-05-16T04:12:51Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26325549802/job/77502527356",
+    "timestamp": "2026-05-23T06:58:57Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Check Binary",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/ArmDeveloperEcosystem/ecosystem-dashboard-for-arm/actions/runs/25952443442/job/76292778423#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26325549802/job/77502527356#step:7:1"
       },
       {
         "name": "Test 2 - Run Help",
         "status": "passed",
-        "duration_seconds": 1,
-        "url": "https://github.com/ArmDeveloperEcosystem/ecosystem-dashboard-for-arm/actions/runs/25952443442/job/76292778423#step:8:1"
+        "duration_seconds": 0,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26325549802/job/77502527356#step:8:1"
       },
       {
         "name": "Test 3 - Start Single Node",
         "status": "passed",
-        "duration_seconds": 7,
-        "url": "https://github.com/ArmDeveloperEcosystem/ecosystem-dashboard-for-arm/actions/runs/25952443442/job/76292778423#step:9:1"
+        "duration_seconds": 8,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26325549802/job/77502527356#step:9:1"
       },
       {
         "name": "Test 4 - Run SQL Query",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/ArmDeveloperEcosystem/ecosystem-dashboard-for-arm/actions/runs/25952443442/job/76292778423#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26325549802/job/77502527356#step:10:1"
       },
       {
         "name": "Test 5 - Architecture Verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/ArmDeveloperEcosystem/ecosystem-dashboard-for-arm/actions/runs/25952443442/job/76292778423#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26325549802/job/77502527356#step:11:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 3,
-        "url": "https://github.com/ArmDeveloperEcosystem/ecosystem-dashboard-for-arm/actions/runs/25952443442/job/76292778423#step:12:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26325549802/job/77502527356#step:12:1",
         "current_version": "v25.1.1",
         "latest_version": "v25.1.2",
         "next_installed_version": "v25.1.2",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-05-16T05:30:01.123191+00:00",
+    "production_refreshed_at": "2026-05-23T08:12:59.561625+00:00",
     "publish_state": "published"
   }
 }
