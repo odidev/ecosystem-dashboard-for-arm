@@ -5,10 +5,10 @@
     "version": "20"
   },
   "run": {
-    "id": "26676860781",
+    "id": "27055108011",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676860781/job/78630208041",
-    "timestamp": "2026-05-30T06:53:52Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055108011/job/79857898887",
+    "timestamp": "2026-06-06T06:53:00Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 97,
+    "duration_seconds": 30,
     "details": [
       {
         "name": "Test 1 - Baseline artifact existence",
         "status": "passed",
         "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676860781/job/78630208041#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055108011/job/79857898887#step:6:1"
       },
       {
         "name": "Test 2 - Baseline index validation",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676860781/job/78630208041#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055108011/job/79857898887#step:7:1"
       },
       {
         "name": "Test 3 - Baseline checksum manifest validation",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676860781/job/78630208041#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055108011/job/79857898887#step:8:1"
       },
       {
         "name": "Test 4 - Architecture verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676860781/job/78630208041#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055108011/job/79857898887#step:9:1"
       },
       {
         "name": "Test 5 - Baseline image integrity validation",
         "status": "passed",
-        "duration_seconds": 96,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676860781/job/78630208041#step:10:1"
+        "duration_seconds": 29,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055108011/job/79857898887#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676860781/job/78630208041#step:11:1",
+        "duration_seconds": 0,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055108011/job/79857898887#step:11:1",
         "current_version": "20",
         "latest_version": "26",
         "next_installed_version": "26",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "validated_next_release_metadata",
-    "production_refreshed_at": "2026-05-30T08:22:20.486424+00:00",
+    "production_refreshed_at": "2026-06-06T08:33:00.902460+00:00",
     "publish_state": "published"
   }
 }

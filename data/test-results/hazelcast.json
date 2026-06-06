@@ -5,10 +5,10 @@
     "version": "5.5.0"
   },
   "run": {
-    "id": "26676856246",
+    "id": "27055103787",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676856246/job/78630195725",
-    "timestamp": "2026-05-30T06:57:54Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055103787/job/79857885721",
+    "timestamp": "2026-06-06T06:44:09Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 15,
+    "duration_seconds": 14,
     "details": [
       {
         "name": "Test 1 - Check start script exists",
         "status": "passed",
-        "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676856246/job/78630195725#step:6:1"
+        "duration_seconds": 0,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055103787/job/79857885721#step:6:1"
       },
       {
         "name": "Test 2 - Check exact core JAR version",
         "status": "passed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676856246/job/78630195725#step:7:1"
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055103787/job/79857885721#step:7:1"
       },
       {
         "name": "Test 3 - Check config file",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676856246/job/78630195725#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055103787/job/79857885721#step:8:1"
       },
       {
         "name": "Test 4 - Run CLI help",
         "status": "passed",
-        "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676856246/job/78630195725#step:9:1"
+        "duration_seconds": 0,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055103787/job/79857885721#step:9:1"
       },
       {
         "name": "Test 5 - Start Hazelcast briefly",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676856246/job/78630195725#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055103787/job/79857885721#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 14,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676856246/job/78630195725#step:11:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055103787/job/79857885721#step:11:1",
         "current_version": "5.5.0",
         "latest_version": "5.6.0",
         "next_installed_version": "5.6.0",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-05-30T08:22:20.381978+00:00",
+    "production_refreshed_at": "2026-06-06T08:33:00.811453+00:00",
     "publish_state": "published"
   }
 }

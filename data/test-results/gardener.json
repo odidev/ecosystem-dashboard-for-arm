@@ -5,10 +5,10 @@
     "version": "2.9.0"
   },
   "run": {
-    "id": "26676850572",
+    "id": "27055098502",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676850572/job/78630179767",
-    "timestamp": "2026-05-30T06:36:41Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055098502/job/79857870063",
+    "timestamp": "2026-06-06T06:39:24Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Check gardenctl binary exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676850572/job/78630179767#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055098502/job/79857870063#step:6:1"
       },
       {
         "name": "Test 2 - Check gardenctl version output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676850572/job/78630179767#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055098502/job/79857870063#step:7:1"
       },
       {
         "name": "Test 3 - Check gardenctl help output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676850572/job/78630179767#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055098502/job/79857870063#step:8:1"
       },
       {
         "name": "Test 4 - Check gardenctl provider-env help",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676850572/job/78630179767#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055098502/job/79857870063#step:9:1"
       },
       {
         "name": "Test 5 - Verify architecture",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676850572/job/78630179767#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055098502/job/79857870063#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676850572/job/78630179767#step:11:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055098502/job/79857870063#step:11:1",
         "current_version": "2.9.0",
         "latest_version": "2.10.0",
         "next_installed_version": "2.10.0",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-05-30T08:22:20.371754+00:00",
+    "production_refreshed_at": "2026-06-06T08:33:00.801809+00:00",
     "publish_state": "published"
   }
 }

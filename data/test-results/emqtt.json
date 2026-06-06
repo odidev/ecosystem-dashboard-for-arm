@@ -2,14 +2,14 @@
   "schema_version": "2.0",
   "package": {
     "name": "EMQTT (Erlang Message Queue Telemetry Transport)",
-    "version": "1.4.4"
+    "version": "unknown"
   },
   "run": {
-    "id": "26676863670",
+    "id": "27055111072",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676863670/job/78630216103",
-    "timestamp": "2026-05-30T06:59:01Z",
-    "status": "success",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055111072/job/79857906843",
+    "timestamp": "2026-06-06T07:08:59Z",
+    "status": "failure",
     "runner": {
       "os": "ubuntu-24.04",
       "arch": "arm64"
@@ -17,52 +17,52 @@
     "job_name": "test-emqtt / test-emqtt"
   },
   "tests": {
-    "passed": 6,
-    "failed": 0,
-    "skipped": 0,
-    "duration_seconds": 50,
+    "passed": 0,
+    "failed": 1,
+    "skipped": 5,
+    "duration_seconds": 0,
     "details": [
       {
         "name": "Test 1 - Check emqtt_cli binary exists",
-        "status": "passed",
+        "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676863670/job/78630216103#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055111072/job/79857906843#step:7:1"
       },
       {
         "name": "Test 2 - Check EMQTT root help output",
-        "status": "passed",
+        "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676863670/job/78630216103#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055111072/job/79857906843#step:8:1"
       },
       {
         "name": "Test 3 - Check EMQTT publish help",
-        "status": "passed",
+        "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676863670/job/78630216103#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055111072/job/79857906843#step:9:1"
       },
       {
         "name": "Test 4 - Check EMQTT subscribe help",
-        "status": "passed",
+        "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676863670/job/78630216103#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055111072/job/79857906843#step:10:1"
       },
       {
         "name": "Test 5 - Publish command handles missing broker",
-        "status": "passed",
-        "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676863670/job/78630216103#step:11:1"
+        "status": "skipped",
+        "duration_seconds": 0,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055111072/job/79857906843#step:11:1"
       },
       {
         "name": "Test 6 - Regression Validation",
-        "status": "passed",
-        "duration_seconds": 49,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/26676863670/job/78630216103#step:12:1",
-        "current_version": "1.4.4",
-        "latest_version": "1.4.5",
-        "next_installed_version": "1.4.5",
-        "decision": "next_install_validated",
-        "regression_result": "Next version installed successfully on Arm64",
-        "comparison": "Baseline EMQTT 1.4.4 passed Tests 1-5. Regression validation built candidate 1.4.5 and executed the EMQTT publish help path on Arm64."
+        "status": "failed",
+        "duration_seconds": 0,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055111072/job/79857906843#step:12:1",
+        "current_version": "unknown",
+        "latest_version": "unknown",
+        "next_installed_version": "not_installed",
+        "decision": "result_not_emitted",
+        "regression_result": "Regression validation step failed before emitting terminal outputs",
+        "comparison": "The package job failed in Actions, but the workflow did not emit a terminal regression decision before exiting."
       }
     ]
   },
@@ -70,16 +70,16 @@
     "contract_version": "2.0",
     "package_slug": "emqtt",
     "dashboard_link": "/linux/opensource_packages/emqtt",
-    "badge_status": "passing",
-    "core_failed": 0,
+    "badge_status": "failing",
+    "core_failed": 5,
     "batch_title": "Batch 11",
     "job_url_resolution_status": "central_exact",
     "regression_applicability": "applicable",
-    "regression_reason": "",
-    "regression_note": "",
-    "regression_status": "passed",
-    "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-05-30T08:22:20.361952+00:00",
+    "regression_reason": "result_not_emitted",
+    "regression_note": "The Test 6 step failed before the workflow emitted a terminal regression decision.",
+    "regression_status": "failed",
+    "regression_decision": "result_not_emitted",
+    "production_refreshed_at": "2026-06-06T08:33:00.792360+00:00",
     "publish_state": "published"
   }
 }
