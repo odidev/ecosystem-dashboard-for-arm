@@ -5,10 +5,10 @@
     "version": "4.5.0"
   },
   "run": {
-    "id": "27055103787",
+    "id": "27459785235",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055103787/job/79857885718",
-    "timestamp": "2026-06-06T07:00:46Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459785235/job/81171186120",
+    "timestamp": "2026-06-13T07:10:09Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Check Impala server binaries exist",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055103787/job/79857885718#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459785235/job/81171186120#step:6:1"
       },
       {
         "name": "Test 2 - Check impala-shell version output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055103787/job/79857885718#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459785235/job/81171186120#step:7:1"
       },
       {
         "name": "Test 3 - Check impala-shell help output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055103787/job/79857885718#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459785235/job/81171186120#step:8:1"
       },
       {
         "name": "Test 4 - Architecture verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055103787/job/79857885718#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459785235/job/81171186120#step:9:1"
       },
       {
         "name": "Test 5 - Check impalad version output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055103787/job/79857885718#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459785235/job/81171186120#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055103787/job/79857885718#step:11:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459785235/job/81171186120#step:11:1",
         "current_version": "4.5.0",
         "latest_version": "4.5.0",
         "next_installed_version": "not_installed",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "skipped",
     "regression_decision": "no_newer_stable_available",
-    "production_refreshed_at": "2026-06-06T08:33:00.815469+00:00",
+    "production_refreshed_at": "2026-06-13T08:49:30.493839+00:00",
     "publish_state": "published"
   }
 }

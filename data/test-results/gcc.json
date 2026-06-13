@@ -5,10 +5,10 @@
     "version": "13.3.0"
   },
   "run": {
-    "id": "27055121842",
+    "id": "27459804706",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055121842/job/79857936807",
-    "timestamp": "2026-06-06T07:25:28Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459804706/job/81171241774",
+    "timestamp": "2026-06-13T07:48:45Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 1,
+    "duration_seconds": 2,
     "details": [
       {
         "name": "Test 1 - Check gcc binary exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055121842/job/79857936807#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459804706/job/81171241774#step:6:1"
       },
       {
         "name": "Test 2 - Check gcc version command",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055121842/job/79857936807#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459804706/job/81171241774#step:7:1"
       },
       {
         "name": "Test 3 - Check gcc help output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055121842/job/79857936807#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459804706/job/81171241774#step:8:1"
       },
       {
         "name": "Test 4 - Compile simple C program",
         "status": "passed",
-        "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055121842/job/79857936807#step:9:1"
+        "duration_seconds": 2,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459804706/job/81171241774#step:9:1"
       },
       {
         "name": "Test 5 - Run compiled program",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055121842/job/79857936807#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459804706/job/81171241774#step:10:1"
       },
       {
         "name": "Regression applicability - package manager installed",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055121842/job/79857936807#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459804706/job/81171241774#step:11:1"
       }
     ]
   },
@@ -71,7 +71,7 @@
     "regression_applicability": "not_applicable",
     "regression_reason": "package_manager_installed",
     "regression_note": "Regression validation not applicable: tested package installed via package manager in Tests 1-5.",
-    "production_refreshed_at": "2026-06-06T08:33:00.802185+00:00",
+    "production_refreshed_at": "2026-06-13T08:49:30.480848+00:00",
     "publish_state": "published"
   }
 }

@@ -5,10 +5,10 @@
     "version": "11"
   },
   "run": {
-    "id": "27055102439",
+    "id": "27459783528",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055102439/job/79857882403",
-    "timestamp": "2026-06-06T06:43:42Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459783528/job/81171180269",
+    "timestamp": "2026-06-13T07:05:57Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Check image architecture",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055102439/job/79857882403#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459783528/job/81171180269#step:6:1"
       },
       {
         "name": "Test 2 - Check OS release file",
         "status": "passed",
         "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055102439/job/79857882403#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459783528/job/81171180269#step:7:1"
       },
       {
         "name": "Test 3 - Install package with apt",
         "status": "passed",
-        "duration_seconds": 3,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055102439/job/79857882403#step:8:1"
+        "duration_seconds": 4,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459783528/job/81171180269#step:8:1"
       },
       {
         "name": "Test 4 - Check architecture inside container",
         "status": "passed",
-        "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055102439/job/79857882403#step:9:1"
+        "duration_seconds": 0,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459783528/job/81171180269#step:9:1"
       },
       {
         "name": "Test 5 - Simple command execution",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055102439/job/79857882403#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459783528/job/81171180269#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 10,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055102439/job/79857882403#step:11:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459783528/job/81171180269#step:11:1",
         "current_version": "11",
         "latest_version": "12.13",
         "next_installed_version": "12",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-06-06T08:33:00.782753+00:00",
+    "production_refreshed_at": "2026-06-13T08:49:30.456374+00:00",
     "publish_state": "published"
   }
 }

@@ -5,10 +5,10 @@
     "version": "1.1.1"
   },
   "run": {
-    "id": "27055101141",
+    "id": "27459782028",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055101141/job/79857878616",
-    "timestamp": "2026-06-06T06:37:14Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459782028/job/81171176045",
+    "timestamp": "2026-06-13T07:06:42Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 49,
+    "duration_seconds": 52,
     "details": [
       {
         "name": "Test 1 - Check package-specific baseline markers",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055101141/job/79857878616#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459782028/job/81171176045#step:9:1"
       },
       {
         "name": "Test 2 - Check package-specific version and release evidence",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055101141/job/79857878616#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459782028/job/81171176045#step:10:1"
       },
       {
         "name": "Test 3 - Check package-specific docs and entrypoints",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055101141/job/79857878616#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459782028/job/81171176045#step:11:1"
       },
       {
         "name": "Test 4 - Verify Arm64 runner and lane assumptions",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055101141/job/79857878616#step:12:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459782028/job/81171176045#step:12:1"
       },
       {
         "name": "Test 5 - Run bounded package-specific smoke",
         "status": "passed",
-        "duration_seconds": 8,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055101141/job/79857878616#step:13:1"
+        "duration_seconds": 9,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459782028/job/81171176045#step:13:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 50,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055101141/job/79857878616#step:14:1",
+        "duration_seconds": 52,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459782028/job/81171176045#step:14:1",
         "current_version": "1.1.1",
         "latest_version": "1.2.10",
         "next_installed_version": "1.2.10",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "limited_cpu_smoke_validated",
-    "production_refreshed_at": "2026-06-06T08:33:00.769451+00:00",
+    "production_refreshed_at": "2026-06-13T08:49:30.442994+00:00",
     "publish_state": "published"
   }
 }

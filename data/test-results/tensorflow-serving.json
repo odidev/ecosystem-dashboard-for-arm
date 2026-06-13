@@ -5,10 +5,10 @@
     "version": "2.18.1"
   },
   "run": {
-    "id": "27055102439",
+    "id": "27459783528",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055102439/job/79857882411",
-    "timestamp": "2026-06-06T06:39:26Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459783528/job/81171180289",
+    "timestamp": "2026-06-13T07:09:30Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 36,
+    "duration_seconds": 37,
     "details": [
       {
         "name": "Test 1 - Check exact baseline source tag and model testdata",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055102439/job/79857882411#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459783528/job/81171180289#step:8:1"
       },
       {
         "name": "Test 2 - Check Tensorflow Serving API package imports",
         "status": "passed",
-        "duration_seconds": 2,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055102439/job/79857882411#step:9:1"
+        "duration_seconds": 3,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459783528/job/81171180289#step:9:1"
       },
       {
         "name": "Test 3 - Check Tensorflow Serving source targets and protos",
         "status": "passed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055102439/job/79857882411#step:10:1"
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459783528/job/81171180289#step:10:1"
       },
       {
         "name": "Test 4 - Verify Arm64 runner and Python package platform",
         "status": "passed",
-        "duration_seconds": 2,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055102439/job/79857882411#step:11:1"
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459783528/job/81171180289#step:11:1"
       },
       {
         "name": "Test 5 - Validate half_plus_two model fixture and request path",
         "status": "passed",
         "duration_seconds": 2,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055102439/job/79857882411#step:12:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459783528/job/81171180289#step:12:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 30,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055102439/job/79857882411#step:13:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459783528/job/81171180289#step:13:1",
         "current_version": "2.18.1",
         "latest_version": "2.19.0",
         "next_installed_version": "2.19.0",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "limited_cpu_smoke_validated",
-    "production_refreshed_at": "2026-06-06T08:33:00.897675+00:00",
+    "production_refreshed_at": "2026-06-13T08:49:30.616048+00:00",
     "publish_state": "published"
   }
 }

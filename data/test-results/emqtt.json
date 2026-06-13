@@ -5,10 +5,10 @@
     "version": "unknown"
   },
   "run": {
-    "id": "27055111072",
+    "id": "27459792707",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055111072/job/79857906843",
-    "timestamp": "2026-06-06T07:08:59Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459792707/job/81171206945",
+    "timestamp": "2026-06-13T07:35:15Z",
     "status": "failure",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Check emqtt_cli binary exists",
         "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055111072/job/79857906843#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459792707/job/81171206945#step:7:1"
       },
       {
         "name": "Test 2 - Check EMQTT root help output",
         "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055111072/job/79857906843#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459792707/job/81171206945#step:8:1"
       },
       {
         "name": "Test 3 - Check EMQTT publish help",
         "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055111072/job/79857906843#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459792707/job/81171206945#step:9:1"
       },
       {
         "name": "Test 4 - Check EMQTT subscribe help",
         "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055111072/job/79857906843#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459792707/job/81171206945#step:10:1"
       },
       {
         "name": "Test 5 - Publish command handles missing broker",
         "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055111072/job/79857906843#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459792707/job/81171206945#step:11:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "failed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055111072/job/79857906843#step:12:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459792707/job/81171206945#step:12:1",
         "current_version": "unknown",
         "latest_version": "unknown",
         "next_installed_version": "not_installed",
@@ -79,7 +79,7 @@
     "regression_note": "The Test 6 step failed before the workflow emitted a terminal regression decision.",
     "regression_status": "failed",
     "regression_decision": "result_not_emitted",
-    "production_refreshed_at": "2026-06-06T08:33:00.792360+00:00",
+    "production_refreshed_at": "2026-06-13T08:49:30.471465+00:00",
     "publish_state": "published"
   }
 }

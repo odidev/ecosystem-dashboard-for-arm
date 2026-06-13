@@ -5,10 +5,10 @@
     "version": "24.0.3"
   },
   "run": {
-    "id": "27055114019",
+    "id": "27459796036",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055114019/job/79857915572",
-    "timestamp": "2026-06-06T07:12:50Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459796036/job/81171217323",
+    "timestamp": "2026-06-13T07:32:08Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 5,
+    "duration_seconds": 4,
     "details": [
       {
         "name": "Test 1 - Check docker and dockerd binaries exist",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055114019/job/79857915572#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459796036/job/81171217323#step:6:1"
       },
       {
         "name": "Test 2 - Check docker client version output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055114019/job/79857915572#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459796036/job/81171217323#step:7:1"
       },
       {
         "name": "Test 3 - Check dockerd version output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055114019/job/79857915572#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459796036/job/81171217323#step:8:1"
       },
       {
         "name": "Test 4 - Check docker help output",
         "status": "passed",
-        "duration_seconds": 3,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055114019/job/79857915572#step:9:1"
+        "duration_seconds": 2,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459796036/job/81171217323#step:9:1"
       },
       {
         "name": "Test 5 - Verify Arm64 binaries",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055114019/job/79857915572#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459796036/job/81171217323#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 2,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055114019/job/79857915572#step:11:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459796036/job/81171217323#step:11:1",
         "current_version": "24.0.3",
         "latest_version": "29.5.3",
         "next_installed_version": "29.5.3",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-06-06T08:33:00.784953+00:00",
+    "production_refreshed_at": "2026-06-13T08:49:30.464351+00:00",
     "publish_state": "published"
   }
 }

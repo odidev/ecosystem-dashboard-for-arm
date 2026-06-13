@@ -5,10 +5,10 @@
     "version": "1.11.0"
   },
   "run": {
-    "id": "27055109529",
+    "id": "27459791244",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055109529/job/79857903163",
-    "timestamp": "2026-06-06T06:54:52Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459791244/job/81171202277",
+    "timestamp": "2026-06-13T07:23:07Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Check Epinio binary exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055109529/job/79857903163#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459791244/job/81171202277#step:6:1"
       },
       {
         "name": "Test 2 - Check Epinio version output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055109529/job/79857903163#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459791244/job/81171202277#step:7:1"
       },
       {
         "name": "Test 3 - Check Epinio help output",
         "status": "passed",
-        "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055109529/job/79857903163#step:8:1"
+        "duration_seconds": 0,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459791244/job/81171202277#step:8:1"
       },
       {
         "name": "Test 4 - Check Epinio settings command",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055109529/job/79857903163#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459791244/job/81171202277#step:9:1"
       },
       {
         "name": "Test 5 - Completion and architecture verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055109529/job/79857903163#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459791244/job/81171202277#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055109529/job/79857903163#step:11:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459791244/job/81171202277#step:11:1",
         "current_version": "1.11.0",
         "latest_version": "1.12.0",
         "next_installed_version": "1.12.0",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-06-06T08:33:00.793607+00:00",
+    "production_refreshed_at": "2026-06-13T08:49:30.472717+00:00",
     "publish_state": "published"
   }
 }

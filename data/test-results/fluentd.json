@@ -5,10 +5,10 @@
     "version": "1.19.2"
   },
   "run": {
-    "id": "27055106601",
+    "id": "27459788459",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055106601/job/79857893740",
-    "timestamp": "2026-06-06T06:49:11Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459788459/job/81171193912",
+    "timestamp": "2026-06-13T07:21:11Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Check fluentd binary exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055106601/job/79857893740#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459788459/job/81171193912#step:6:1"
       },
       {
         "name": "Test 2 - Check fluentd version command",
         "status": "passed",
         "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055106601/job/79857893740#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459788459/job/81171193912#step:7:1"
       },
       {
         "name": "Test 3 - Check fluentd help output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055106601/job/79857893740#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459788459/job/81171193912#step:8:1"
       },
       {
         "name": "Test 4 - Dry-run configuration",
         "status": "passed",
         "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055106601/job/79857893740#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459788459/job/81171193912#step:9:1"
       },
       {
         "name": "Test 5 - Ruby API and architecture validation",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055106601/job/79857893740#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459788459/job/81171193912#step:10:1"
       },
       {
         "name": "Regression applicability - package manager installed",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055106601/job/79857893740#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459788459/job/81171193912#step:11:1"
       }
     ]
   },
@@ -71,7 +71,7 @@
     "regression_applicability": "not_applicable",
     "regression_reason": "package_manager_installed",
     "regression_note": "Regression validation not applicable: tested package installed via package manager in Tests 1-5.",
-    "production_refreshed_at": "2026-06-06T08:33:00.798182+00:00",
+    "production_refreshed_at": "2026-06-13T08:49:30.477077+00:00",
     "publish_state": "published"
   }
 }

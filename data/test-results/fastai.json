@@ -5,10 +5,10 @@
     "version": "2.8.7"
   },
   "run": {
-    "id": "27055126448",
+    "id": "27459809967",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055126448/job/79857949896",
-    "timestamp": "2026-06-06T07:25:10Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459809967/job/81171256186",
+    "timestamp": "2026-06-13T07:57:36Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 5,
     "failed": 0,
     "skipped": 1,
-    "duration_seconds": 148,
+    "duration_seconds": 135,
     "details": [
       {
         "name": "Test 1 - Install FastAI Python package",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055126448/job/79857949896#step:5:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459809967/job/81171256186#step:5:1"
       },
       {
         "name": "Test 2 - Verify FastAI package metadata",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055126448/job/79857949896#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459809967/job/81171256186#step:6:1"
       },
       {
         "name": "Test 3 - Import FastAI and Torch modules",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055126448/job/79857949896#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459809967/job/81171256186#step:7:1"
       },
       {
         "name": "Test 4 - Verify Arm64 Python runtime",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055126448/job/79857949896#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459809967/job/81171256186#step:8:1"
       },
       {
         "name": "Test 5 - Run bounded FastAI tensor smoke",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055126448/job/79857949896#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459809967/job/81171256186#step:9:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27055126448/job/79857949896#step:10:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459809967/job/81171256186#step:10:1",
         "current_version": "2.8.7",
         "latest_version": "2.8.7",
         "next_installed_version": "not_installed",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "skipped",
     "regression_decision": "current_is_latest_stable",
-    "production_refreshed_at": "2026-06-06T08:33:00.794808+00:00",
+    "production_refreshed_at": "2026-06-13T08:49:30.473891+00:00",
     "publish_state": "published"
   }
 }
