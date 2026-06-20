@@ -5,10 +5,10 @@
     "version": "1.24.5"
   },
   "run": {
-    "id": "27459780472",
+    "id": "27863695464",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459780472/job/81171171411",
-    "timestamp": "2026-06-13T07:04:29Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863695464/job/82464017785",
+    "timestamp": "2026-06-20T07:04:45Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Check Wget binary exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459780472/job/81171171411#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863695464/job/82464017785#step:6:1"
       },
       {
         "name": "Test 2 - Check version command",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459780472/job/81171171411#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863695464/job/82464017785#step:7:1"
       },
       {
         "name": "Test 3 - Check help output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459780472/job/81171171411#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863695464/job/82464017785#step:8:1"
       },
       {
         "name": "Test 4 - Architecture verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459780472/job/81171171411#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863695464/job/82464017785#step:9:1"
       },
       {
         "name": "Test 5 - Functional validation",
         "status": "passed",
         "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459780472/job/81171171411#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863695464/job/82464017785#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 33,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459780472/job/81171171411#step:11:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863695464/job/82464017785#step:11:1",
         "current_version": "1.24.5",
         "latest_version": "1.25.0",
         "next_installed_version": "1.25.0",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-06-13T08:49:30.627482+00:00",
+    "production_refreshed_at": "2026-06-20T09:04:55.522645+00:00",
     "publish_state": "published"
   }
 }

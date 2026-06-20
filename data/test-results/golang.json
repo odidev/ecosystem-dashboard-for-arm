@@ -5,10 +5,10 @@
     "version": "1.24.1"
   },
   "run": {
-    "id": "27459789885",
+    "id": "27863704994",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459789885/job/81171198444",
-    "timestamp": "2026-06-13T07:18:38Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863704994/job/82464043614",
+    "timestamp": "2026-06-20T07:24:43Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 8,
+    "duration_seconds": 9,
     "details": [
       {
         "name": "Test 1 - Check go binary exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459789885/job/81171198444#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863704994/job/82464043614#step:6:1"
       },
       {
         "name": "Test 2 - Check go version output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459789885/job/81171198444#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863704994/job/82464043614#step:7:1"
       },
       {
         "name": "Test 3 - Check go env arm64 output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459789885/job/81171198444#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863704994/job/82464043614#step:8:1"
       },
       {
         "name": "Test 4 - Run simple Go program",
         "status": "passed",
         "duration_seconds": 3,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459789885/job/81171198444#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863704994/job/82464043614#step:9:1"
       },
       {
         "name": "Test 5 - Build simple Go program",
         "status": "passed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459789885/job/81171198444#step:10:1"
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863704994/job/82464043614#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 5,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459789885/job/81171198444#step:11:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863704994/job/82464043614#step:11:1",
         "current_version": "1.24.1",
         "latest_version": "1.24.2",
         "next_installed_version": "1.24.2",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-06-13T08:49:30.485422+00:00",
+    "production_refreshed_at": "2026-06-20T09:04:55.391836+00:00",
     "publish_state": "published"
   }
 }

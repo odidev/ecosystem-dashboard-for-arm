@@ -5,10 +5,10 @@
     "version": "0.22.0"
   },
   "run": {
-    "id": "27459804706",
+    "id": "27863719460",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459804706/job/81171241866",
-    "timestamp": "2026-06-13T07:52:55Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863719460/job/82464084473",
+    "timestamp": "2026-06-20T07:48:34Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 0,
+    "duration_seconds": 1,
     "details": [
       {
         "name": "Test 1 - Check ramalama binary exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459804706/job/81171241866#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863719460/job/82464084473#step:6:1"
       },
       {
         "name": "Test 2 - Check ramalama version command",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459804706/job/81171241866#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863719460/job/82464084473#step:7:1"
       },
       {
         "name": "Test 3 - Check ramalama help output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459804706/job/81171241866#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863719460/job/82464084473#step:8:1"
       },
       {
         "name": "Test 4 - Architecture Verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459804706/job/81171241866#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863719460/job/82464084473#step:9:1"
       },
       {
         "name": "Test 5 - Functional Validation",
         "status": "passed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459804706/job/81171241866#step:10:1"
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863719460/job/82464084473#step:10:1"
       },
       {
         "name": "Regression applicability - package manager installed",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459804706/job/81171241866#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863719460/job/82464084473#step:11:1"
       }
     ]
   },
@@ -71,7 +71,7 @@
     "regression_applicability": "not_applicable",
     "regression_reason": "package_manager_installed",
     "regression_note": "Regression validation not applicable: tested package installed via package manager in Tests 1-5.",
-    "production_refreshed_at": "2026-06-13T08:49:30.584834+00:00",
+    "production_refreshed_at": "2026-06-20T09:04:55.473398+00:00",
     "publish_state": "published"
   }
 }

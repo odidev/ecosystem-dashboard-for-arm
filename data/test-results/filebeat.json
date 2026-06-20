@@ -5,10 +5,10 @@
     "version": "9.2.0"
   },
   "run": {
-    "id": "27459796036",
+    "id": "27863711564",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459796036/job/81171217295",
-    "timestamp": "2026-06-13T07:30:53Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863711564/job/82464061691",
+    "timestamp": "2026-06-20T07:53:03Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Check Filebeat binary exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459796036/job/81171217295#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863711564/job/82464061691#step:6:1"
       },
       {
         "name": "Test 2 - Check Filebeat version output",
         "status": "passed",
-        "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459796036/job/81171217295#step:7:1"
+        "duration_seconds": 0,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863711564/job/82464061691#step:7:1"
       },
       {
         "name": "Test 3 - Check Filebeat help output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459796036/job/81171217295#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863711564/job/82464061691#step:8:1"
       },
       {
         "name": "Test 4 - Check Filebeat configuration",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459796036/job/81171217295#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863711564/job/82464061691#step:9:1"
       },
       {
         "name": "Test 5 - Export template and verify architecture",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459796036/job/81171217295#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863711564/job/82464061691#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 6,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27459796036/job/81171217295#step:11:1",
+        "duration_seconds": 7,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863711564/job/82464061691#step:11:1",
         "current_version": "9.2.0",
         "latest_version": "9.2.1",
         "next_installed_version": "9.2.1",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-06-13T08:49:30.475368+00:00",
+    "production_refreshed_at": "2026-06-20T09:04:55.381018+00:00",
     "publish_state": "published"
   }
 }
