@@ -5,10 +5,10 @@
     "version": "0.1.0"
   },
   "run": {
-    "id": "27863722588",
+    "id": "28281311119",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863722588/job/82464094015",
-    "timestamp": "2026-06-20T07:59:09Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281311119/job/83797481343",
+    "timestamp": "2026-06-27T07:28:30Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,49 +20,49 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 54,
+    "duration_seconds": 60,
     "details": [
       {
         "name": "Test 1 - Check package-specific baseline markers",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863722588/job/82464094015#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281311119/job/83797481343#step:8:1"
       },
       {
         "name": "Test 2 - Check published package metadata",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863722588/job/82464094015#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281311119/job/83797481343#step:9:1"
       },
       {
         "name": "Test 3 - Check package-specific docs and manifests",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863722588/job/82464094015#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281311119/job/83797481343#step:10:1"
       },
       {
         "name": "Test 4 - Verify Arm64 runner and lane assumptions",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863722588/job/82464094015#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281311119/job/83797481343#step:11:1"
       },
       {
         "name": "Test 5 - Run bounded package-specific smoke",
         "status": "passed",
-        "duration_seconds": 49,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863722588/job/82464094015#step:12:1"
+        "duration_seconds": 51,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281311119/job/83797481343#step:12:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 54,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863722588/job/82464094015#step:13:1",
+        "duration_seconds": 60,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281311119/job/83797481343#step:13:1",
         "current_version": "0.1.0",
-        "latest_version": "0.30.10",
-        "next_installed_version": "0.30.10",
+        "latest_version": "0.30.11",
+        "next_installed_version": "0.30.11",
         "decision": "limited_cpu_smoke_validated",
         "regression_result": "Arm preflight proof passed on Arm64",
-        "comparison": "The newer stable Ollama 0.30.10 Linux Arm64 binary was downloaded, architecture-checked, started as a local server, and probed through /api/version, /api/tags, and ollama list. No LLM generation is claimed without model weights."
+        "comparison": "The newer stable Ollama 0.30.11 Linux Arm64 binary was downloaded, architecture-checked, started as a local server, and probed through /api/version, /api/tags, and ollama list. No LLM generation is claimed without model weights."
       }
     ]
   },
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "limited_cpu_smoke_validated",
-    "production_refreshed_at": "2026-06-20T09:04:55.450464+00:00",
+    "production_refreshed_at": "2026-06-27T08:31:03.858730+00:00",
     "publish_state": "published"
   }
 }

@@ -5,10 +5,10 @@
     "version": "1.63.0"
   },
   "run": {
-    "id": "27863704994",
+    "id": "28281294548",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863704994/job/82464043306",
-    "timestamp": "2026-06-20T07:24:10Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281294548/job/83797433263",
+    "timestamp": "2026-06-27T06:53:13Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,43 +26,43 @@
         "name": "Test 1 - Check Binary Existence",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863704994/job/82464043306#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281294548/job/83797433263#step:6:1"
       },
       {
         "name": "Test 2 - Check Version Output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863704994/job/82464043306#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281294548/job/83797433263#step:7:1"
       },
       {
         "name": "Test 3 - Check Help Output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863704994/job/82464043306#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281294548/job/83797433263#step:8:1"
       },
       {
         "name": "Test 4 - Architecture Verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863704994/job/82464043306#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281294548/job/83797433263#step:9:1"
       },
       {
         "name": "Test 5 - Functional Validation",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863704994/job/82464043306#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281294548/job/83797433263#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863704994/job/82464043306#step:11:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281294548/job/83797433263#step:11:1",
         "current_version": "1.63.0",
-        "latest_version": "1.76.2",
-        "next_installed_version": "1.76.2",
+        "latest_version": "1.77.0",
+        "next_installed_version": "1.77.0",
         "decision": "next_install_validated",
         "regression_result": "Next version installed successfully on Arm64",
-        "comparison": "Current pinned New Relic version 1.63.0 passed smoke tests in this run. Regression validation downloaded and extracted the candidate Arm64 artifact from https://github.com/newrelic/infrastructure-agent/releases/download/1.76.2/newrelic-infra_linux_1.76.2_arm64.tar.gz successfully, the candidate bundle resolved to executable Arm64 binaries, and the main binary executed on Arm64 while resolving candidate version 1.76.2."
+        "comparison": "Current pinned New Relic version 1.63.0 passed smoke tests in this run. Regression validation downloaded and extracted the candidate Arm64 artifact from https://github.com/newrelic/infrastructure-agent/releases/download/1.77.0/newrelic-infra_linux_1.77.0_arm64.tar.gz successfully, the candidate bundle resolved to executable Arm64 binaries, and the main binary executed on Arm64 while resolving candidate version 1.77.0."
       }
     ]
   },
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-06-20T09:04:55.439312+00:00",
+    "production_refreshed_at": "2026-06-27T08:31:03.853217+00:00",
     "publish_state": "published"
   }
 }

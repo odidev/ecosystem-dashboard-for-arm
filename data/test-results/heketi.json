@@ -5,10 +5,10 @@
     "version": "v10.3.0"
   },
   "run": {
-    "id": "27863695464",
+    "id": "28281285242",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863695464/job/82464017864",
-    "timestamp": "2026-06-20T07:22:02Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281285242/job/83797407136",
+    "timestamp": "2026-06-27T06:44:42Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Check Heketi binaries exist",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863695464/job/82464017864#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281285242/job/83797407136#step:6:1"
       },
       {
         "name": "Test 2 - Check exact Heketi version output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863695464/job/82464017864#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281285242/job/83797407136#step:7:1"
       },
       {
         "name": "Test 3 - Check help output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863695464/job/82464017864#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281285242/job/83797407136#step:8:1"
       },
       {
         "name": "Test 4 - Verify architecture and binary format",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863695464/job/82464017864#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281285242/job/83797407136#step:9:1"
       },
       {
         "name": "Test 5 - Validate offline database import/export",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863695464/job/82464017864#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281285242/job/83797407136#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/27863695464/job/82464017864#step:11:1",
+        "duration_seconds": 2,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281285242/job/83797407136#step:11:1",
         "current_version": "v10.3.0",
         "latest_version": "v10.4.0-release-10",
         "next_installed_version": "v10.4.0-release-10",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-06-20T09:04:55.397554+00:00",
+    "production_refreshed_at": "2026-06-27T08:31:03.811802+00:00",
     "publish_state": "published"
   }
 }
