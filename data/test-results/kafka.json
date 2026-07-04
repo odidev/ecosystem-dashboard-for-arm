@@ -5,10 +5,10 @@
     "version": "4.1.2"
   },
   "run": {
-    "id": "28281281853",
+    "id": "28697591925",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281281853/job/83797397254",
-    "timestamp": "2026-06-27T06:32:04Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697591925/job/85109876730",
+    "timestamp": "2026-07-04T06:23:17Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 17,
+    "duration_seconds": 18,
     "details": [
       {
         "name": "Test 1 - Check kafka scripts exist",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281281853/job/83797397254#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697591925/job/85109876730#step:6:1"
       },
       {
         "name": "Test 2 - Prepare KRaft metadata",
         "status": "passed",
-        "duration_seconds": 4,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281281853/job/83797397254#step:7:1"
+        "duration_seconds": 3,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697591925/job/85109876730#step:7:1"
       },
       {
         "name": "Test 3 - Start Kafka Server",
         "status": "passed",
-        "duration_seconds": 5,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281281853/job/83797397254#step:8:1"
+        "duration_seconds": 7,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697591925/job/85109876730#step:8:1"
       },
       {
         "name": "Test 4 - Create a topic",
         "status": "passed",
-        "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281281853/job/83797397254#step:9:1"
+        "duration_seconds": 2,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697591925/job/85109876730#step:9:1"
       },
       {
         "name": "Test 5 - List topics",
         "status": "passed",
         "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281281853/job/83797397254#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697591925/job/85109876730#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 7,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281281853/job/83797397254#step:11:1",
+        "duration_seconds": 5,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697591925/job/85109876730#step:11:1",
         "current_version": "4.1.2",
         "latest_version": "4.2.0",
         "next_installed_version": "4.2.0",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-06-27T08:31:03.821689+00:00",
+    "production_refreshed_at": "2026-07-04T08:14:35.810786+00:00",
     "publish_state": "published"
   }
 }

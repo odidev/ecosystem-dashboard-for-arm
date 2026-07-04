@@ -5,10 +5,10 @@
     "version": "4.5.6"
   },
   "run": {
-    "id": "28281294548",
+    "id": "28697604837",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281294548/job/83797433668",
-    "timestamp": "2026-06-27T07:02:02Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697604837/job/85109911915",
+    "timestamp": "2026-07-04T06:44:00Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 3,
+    "duration_seconds": 4,
     "details": [
       {
         "name": "Test 1 - Check setup script exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281294548/job/83797433668#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697604837/job/85109911915#step:6:1"
       },
       {
         "name": "Test 2 - Check setup help output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281294548/job/83797433668#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697604837/job/85109911915#step:7:1"
       },
       {
         "name": "Test 3 - Check remove helper help output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281294548/job/83797433668#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697604837/job/85109911915#step:8:1"
       },
       {
         "name": "Test 4 - Architecture Verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281294548/job/83797433668#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697604837/job/85109911915#step:9:1"
       },
       {
         "name": "Test 5 - Check rename helper help output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281294548/job/83797433668#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697604837/job/85109911915#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 3,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28281294548/job/83797433668#step:11:1",
+        "duration_seconds": 4,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697604837/job/85109911915#step:11:1",
         "current_version": "4.5.6",
         "latest_version": "4.5.7",
         "next_installed_version": "4.5.7",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "limited_cpu_smoke_validated",
-    "production_refreshed_at": "2026-06-27T08:31:03.869701+00:00",
+    "production_refreshed_at": "2026-07-04T08:14:35.865826+00:00",
     "publish_state": "published"
   }
 }
