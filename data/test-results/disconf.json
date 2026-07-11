@@ -5,10 +5,10 @@
     "version": "2.6.27"
   },
   "run": {
-    "id": "28697604837",
+    "id": "29141683081",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697604837/job/85109911809",
-    "timestamp": "2026-07-04T06:43:23Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141683081/job/86515931644",
+    "timestamp": "2026-07-11T06:18:38Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 40,
+    "duration_seconds": 38,
     "details": [
       {
         "name": "Test 1 - Check source tree exists",
         "status": "passed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697604837/job/85109911809#step:7:1"
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141683081/job/86515931644#step:7:1"
       },
       {
         "name": "Test 2 - Check Maven modules exist",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697604837/job/85109911809#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141683081/job/86515931644#step:8:1"
       },
       {
         "name": "Test 3 - Check SQL assets exist",
         "status": "passed",
-        "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697604837/job/85109911809#step:9:1"
+        "duration_seconds": 0,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141683081/job/86515931644#step:9:1"
       },
       {
         "name": "Test 4 - Architecture verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697604837/job/85109911809#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141683081/job/86515931644#step:10:1"
       },
       {
         "name": "Test 5 - Build baseline disconf-core in Temurin 8 container",
         "status": "passed",
-        "duration_seconds": 24,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697604837/job/85109911809#step:11:1"
+        "duration_seconds": 26,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141683081/job/86515931644#step:11:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 15,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697604837/job/85109911809#step:12:1",
+        "duration_seconds": 12,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141683081/job/86515931644#step:12:1",
         "current_version": "2.6.27",
         "latest_version": "2.6.28",
         "next_installed_version": "2.6.28",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-07-04T08:14:35.765519+00:00",
+    "production_refreshed_at": "2026-07-11T07:35:14.062398+00:00",
     "publish_state": "published"
   }
 }

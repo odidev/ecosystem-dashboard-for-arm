@@ -5,10 +5,10 @@
     "version": "2.12.4"
   },
   "run": {
-    "id": "28697596521",
+    "id": "29141674637",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697596521/job/85109890174",
-    "timestamp": "2026-07-04T06:36:54Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141674637/job/86515907110",
+    "timestamp": "2026-07-11T06:00:20Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 35,
+    "duration_seconds": 19,
     "details": [
       {
         "name": "Test 1 - Check Harbor install script exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697596521/job/85109890174#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141674637/job/86515907110#step:6:1"
       },
       {
         "name": "Test 2 - Check Harbor configuration template exists",
         "status": "passed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697596521/job/85109890174#step:7:1"
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141674637/job/86515907110#step:7:1"
       },
       {
         "name": "Test 3 - Check Harbor prepare script",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697596521/job/85109890174#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141674637/job/86515907110#step:8:1"
       },
       {
         "name": "Test 4 - Check common.sh exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697596521/job/85109890174#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141674637/job/86515907110#step:9:1"
       },
       {
         "name": "Test 5 - Run Harbor prepare help path",
         "status": "passed",
-        "duration_seconds": 15,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697596521/job/85109890174#step:10:1"
+        "duration_seconds": 14,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141674637/job/86515907110#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 20,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697596521/job/85109890174#step:11:1",
+        "duration_seconds": 5,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141674637/job/86515907110#step:11:1",
         "current_version": "2.12.4",
         "latest_version": "2.13.0",
         "next_installed_version": "2.13.0",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-07-04T08:14:35.797070+00:00",
+    "production_refreshed_at": "2026-07-11T07:35:14.092873+00:00",
     "publish_state": "published"
   }
 }

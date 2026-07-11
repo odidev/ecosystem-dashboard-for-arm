@@ -5,10 +5,10 @@
     "version": "2.54.0"
   },
   "run": {
-    "id": "28697613708",
+    "id": "29141692727",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697613708/job/85109935985",
-    "timestamp": "2026-07-04T06:59:44Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141692727/job/86515958668",
+    "timestamp": "2026-07-11T06:22:43Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Check git binary exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697613708/job/85109935985#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141692727/job/86515958668#step:6:1"
       },
       {
         "name": "Test 2 - Check git version command",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697613708/job/85109935985#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141692727/job/86515958668#step:7:1"
       },
       {
         "name": "Test 3 - Check git help output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697613708/job/85109935985#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141692727/job/86515958668#step:8:1"
       },
       {
         "name": "Test 4 - Initialize a repository",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697613708/job/85109935985#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141692727/job/86515958668#step:9:1"
       },
       {
         "name": "Test 5 - Configure user (local)",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697613708/job/85109935985#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141692727/job/86515958668#step:10:1"
       },
       {
         "name": "Regression applicability - package manager installed",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/28697613708/job/85109935985#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141692727/job/86515958668#step:11:1"
       }
     ]
   },
@@ -71,7 +71,7 @@
     "regression_applicability": "not_applicable",
     "regression_reason": "package_manager_installed",
     "regression_note": "Regression validation not applicable: tested package installed via package manager in Tests 1-5.",
-    "production_refreshed_at": "2026-07-04T08:14:35.789734+00:00",
+    "production_refreshed_at": "2026-07-11T07:35:14.085982+00:00",
     "publish_state": "published"
   }
 }
