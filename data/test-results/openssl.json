@@ -5,10 +5,10 @@
     "version": "3.0.13"
   },
   "run": {
-    "id": "29141698487",
+    "id": "29632398984",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141698487/job/86515973248",
-    "timestamp": "2026-07-11T06:42:40Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632398984/job/88048552531",
+    "timestamp": "2026-07-18T06:21:46Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Check openssl binary",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141698487/job/86515973248#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632398984/job/88048552531#step:6:1"
       },
       {
         "name": "Test 2 - Check version command",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141698487/job/86515973248#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632398984/job/88048552531#step:7:1"
       },
       {
         "name": "Test 3 - List supported ciphers",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141698487/job/86515973248#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632398984/job/88048552531#step:8:1"
       },
       {
         "name": "Test 4 - Verify architecture",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141698487/job/86515973248#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632398984/job/88048552531#step:9:1"
       },
       {
         "name": "Test 5 - Generate and inspect a certificate",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141698487/job/86515973248#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632398984/job/88048552531#step:10:1"
       },
       {
         "name": "Regression applicability - package manager installed",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141698487/job/86515973248#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632398984/job/88048552531#step:11:1"
       }
     ]
   },
@@ -71,7 +71,7 @@
     "regression_applicability": "not_applicable",
     "regression_reason": "package_manager_installed",
     "regression_note": "Regression validation not applicable: tested package installed via package manager in Tests 1-5.",
-    "production_refreshed_at": "2026-07-11T07:35:14.154697+00:00",
+    "production_refreshed_at": "2026-07-18T07:21:16.119090+00:00",
     "publish_state": "published"
   }
 }

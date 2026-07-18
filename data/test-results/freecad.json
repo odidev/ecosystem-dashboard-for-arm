@@ -5,10 +5,10 @@
     "version": "1.1.1"
   },
   "run": {
-    "id": "29141690782",
+    "id": "29632391273",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141690782/job/86515953159",
-    "timestamp": "2026-07-11T06:16:32Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632391273/job/88048531388",
+    "timestamp": "2026-07-18T06:03:18Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 5,
     "failed": 0,
     "skipped": 1,
-    "duration_seconds": 4,
+    "duration_seconds": 3,
     "details": [
       {
         "name": "Test 1 - Baseline package evidence",
         "status": "passed",
         "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141690782/job/86515953159#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632391273/job/88048531388#step:8:1"
       },
       {
         "name": "Test 2 - Installed runtime version",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141690782/job/86515953159#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632391273/job/88048531388#step:9:1"
       },
       {
         "name": "Test 3 - FreeCADCmd imports modeling modules",
         "status": "passed",
         "duration_seconds": 3,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141690782/job/86515953159#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632391273/job/88048531388#step:10:1"
       },
       {
         "name": "Test 4 - Arm64 support gate",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141690782/job/86515953159#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632391273/job/88048531388#step:11:1"
       },
       {
         "name": "Test 5 - Bounded package-specific smoke",
         "status": "passed",
-        "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141690782/job/86515953159#step:12:1"
+        "duration_seconds": 0,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632391273/job/88048531388#step:12:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141690782/job/86515953159#step:13:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632391273/job/88048531388#step:13:1",
         "current_version": "1.1.1",
         "latest_version": "1.1.1",
         "next_installed_version": "not_installed",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "skipped",
     "regression_decision": "no_newer_stable_available",
-    "production_refreshed_at": "2026-07-11T07:35:14.080344+00:00",
+    "production_refreshed_at": "2026-07-18T07:21:16.019668+00:00",
     "publish_state": "published"
   }
 }

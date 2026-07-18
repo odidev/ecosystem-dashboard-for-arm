@@ -5,10 +5,10 @@
     "version": "7.5.0"
   },
   "run": {
-    "id": "29141671141",
+    "id": "29632366962",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141671141/job/86515898085",
-    "timestamp": "2026-07-11T05:57:32Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632366962/job/88048466510",
+    "timestamp": "2026-07-18T05:35:52Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Check pwsh binary exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141671141/job/86515898085#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632366962/job/88048466510#step:6:1"
       },
       {
         "name": "Test 2 - Check version output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141671141/job/86515898085#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632366962/job/88048466510#step:7:1"
       },
       {
         "name": "Test 3 - Check PowerShell runtime version",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141671141/job/86515898085#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632366962/job/88048466510#step:8:1"
       },
       {
         "name": "Test 4 - Architecture verification",
         "status": "passed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141671141/job/86515898085#step:9:1"
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632366962/job/88048466510#step:9:1"
       },
       {
         "name": "Test 5 - Functional validation",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141671141/job/86515898085#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632366962/job/88048466510#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 2,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141671141/job/86515898085#step:11:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632366962/job/88048466510#step:11:1",
         "current_version": "7.5.0",
         "latest_version": "7.5.1",
         "next_installed_version": "7.5.1",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-07-11T07:35:14.165259+00:00",
+    "production_refreshed_at": "2026-07-18T07:21:16.130078+00:00",
     "publish_state": "published"
   }
 }

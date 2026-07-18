@@ -5,10 +5,10 @@
     "version": "8.19.12"
   },
   "run": {
-    "id": "29141672881",
+    "id": "29632369444",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141672881/job/86515902642",
-    "timestamp": "2026-07-11T05:45:38Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632369444/job/88048472026",
+    "timestamp": "2026-07-18T05:36:02Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 19,
+    "duration_seconds": 16,
     "details": [
       {
         "name": "Test 1 - Check Logstash binary exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141672881/job/86515902642#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632369444/job/88048472026#step:6:1"
       },
       {
         "name": "Test 2 - Check Logstash version output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141672881/job/86515902642#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632369444/job/88048472026#step:7:1"
       },
       {
         "name": "Test 3 - Check Logstash help output",
         "status": "passed",
-        "duration_seconds": 9,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141672881/job/86515902642#step:8:1"
+        "duration_seconds": 7,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632369444/job/88048472026#step:8:1"
       },
       {
         "name": "Test 4 - Check Logstash config test",
         "status": "passed",
-        "duration_seconds": 10,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141672881/job/86515902642#step:9:1"
+        "duration_seconds": 9,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632369444/job/88048472026#step:9:1"
       },
       {
         "name": "Test 5 - Check package architecture",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141672881/job/86515902642#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632369444/job/88048472026#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 49,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29141672881/job/86515902642#step:11:1",
+        "duration_seconds": 52,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632369444/job/88048472026#step:11:1",
         "current_version": "8.19.12",
         "latest_version": "8.19.16",
         "next_installed_version": "8.19.16",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-07-11T07:35:14.123481+00:00",
+    "production_refreshed_at": "2026-07-18T07:21:16.073901+00:00",
     "publish_state": "published"
   }
 }
