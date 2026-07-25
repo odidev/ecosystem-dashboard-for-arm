@@ -5,10 +5,10 @@
     "version": "2017-02-02T22:38:48Z"
   },
   "run": {
-    "id": "29632378740",
+    "id": "30146330062",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632378740/job/88048495805",
-    "timestamp": "2026-07-18T06:03:14Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146330062/job/89648858668",
+    "timestamp": "2026-07-25T05:55:04Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Check mc binary exists and architecture",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632378740/job/88048495805#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146330062/job/89648858668#step:6:1"
       },
       {
         "name": "Test 2 - Check mc version command",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632378740/job/88048495805#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146330062/job/89648858668#step:7:1"
       },
       {
         "name": "Test 3 - Check mc help output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632378740/job/88048495805#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146330062/job/89648858668#step:8:1"
       },
       {
         "name": "Test 4 - Check mc config host add/list",
         "status": "passed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632378740/job/88048495805#step:9:1"
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146330062/job/89648858668#step:9:1"
       },
       {
         "name": "Test 5 - Check ls help output",
         "status": "passed",
-        "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632378740/job/88048495805#step:10:1"
+        "duration_seconds": 0,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146330062/job/89648858668#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632378740/job/88048495805#step:11:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146330062/job/89648858668#step:11:1",
         "current_version": "2017-02-02T22:38:48Z",
         "latest_version": "2017-02-06T20:16:19Z",
         "next_installed_version": "2017-02-06T20:16:19Z",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-07-18T07:21:16.083066+00:00",
+    "production_refreshed_at": "2026-07-25T07:32:06.636641+00:00",
     "publish_state": "published"
   }
 }

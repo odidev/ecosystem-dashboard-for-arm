@@ -5,10 +5,10 @@
     "version": "6.4.3"
   },
   "run": {
-    "id": "29632378740",
+    "id": "30146330062",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632378740/job/88048495643",
-    "timestamp": "2026-07-18T05:46:40Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146330062/job/89648858379",
+    "timestamp": "2026-07-25T06:14:47Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Artifact Existence",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632378740/job/88048495643#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146330062/job/89648858379#step:6:1"
       },
       {
         "name": "Test 2 - Version Check",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632378740/job/88048495643#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146330062/job/89648858379#step:7:1"
       },
       {
         "name": "Test 3 - Configuration Validation",
         "status": "passed",
         "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632378740/job/88048495643#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146330062/job/89648858379#step:8:1"
       },
       {
         "name": "Test 4 - Architecture Verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632378740/job/88048495643#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146330062/job/89648858379#step:9:1"
       },
       {
         "name": "Test 5 - Functional Validation",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632378740/job/88048495643#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146330062/job/89648858379#step:10:1"
       },
       {
         "name": "Regression applicability - package manager installed",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632378740/job/88048495643#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146330062/job/89648858379#step:11:1"
       }
     ]
   },
@@ -71,7 +71,7 @@
     "regression_applicability": "not_applicable",
     "regression_reason": "package_manager_installed",
     "regression_note": "Regression validation not applicable: tested package installed via package manager in Tests 1-5.",
-    "production_refreshed_at": "2026-07-18T07:21:16.179234+00:00",
+    "production_refreshed_at": "2026-07-25T07:32:06.702606+00:00",
     "publish_state": "published"
   }
 }

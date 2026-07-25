@@ -5,10 +5,10 @@
     "version": "2.6.0"
   },
   "run": {
-    "id": "29632371871",
+    "id": "30146324010",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632371871/job/88048477748",
-    "timestamp": "2026-07-18T05:36:48Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146324010/job/89648840744",
+    "timestamp": "2026-07-25T05:48:57Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Check Seata Script",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632371871/job/88048477748#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146324010/job/89648840744#step:7:1"
       },
       {
         "name": "Test 2 - Check Java dependency",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632371871/job/88048477748#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146324010/job/89648840744#step:8:1"
       },
       {
         "name": "Test 3 - Check Seata Config",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632371871/job/88048477748#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146324010/job/89648840744#step:9:1"
       },
       {
         "name": "Test 4 - Architecture Verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632371871/job/88048477748#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146324010/job/89648840744#step:10:1"
       },
       {
         "name": "Test 5 - Functional Validation",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632371871/job/88048477748#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146324010/job/89648840744#step:11:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632371871/job/88048477748#step:12:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146324010/job/89648840744#step:12:1",
         "current_version": "2.6.0",
         "latest_version": "2.6.0",
         "next_installed_version": "2.6.0",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "skipped",
     "regression_decision": "no_newer_stable_available",
-    "production_refreshed_at": "2026-07-18T07:21:16.144266+00:00",
+    "production_refreshed_at": "2026-07-25T07:32:06.681862+00:00",
     "publish_state": "published"
   }
 }

@@ -5,10 +5,10 @@
     "version": "3.3.6"
   },
   "run": {
-    "id": "29632376455",
+    "id": "30146327993",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632376455/job/88048489993",
-    "timestamp": "2026-07-18T05:41:25Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146327993/job/89648852286",
+    "timestamp": "2026-07-25T06:02:30Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 12,
+    "duration_seconds": 27,
     "details": [
       {
         "name": "Test 1 - Check hdfs binary exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632376455/job/88048489993#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146327993/job/89648852286#step:6:1"
       },
       {
         "name": "Test 2 - Check exact hdfs version",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632376455/job/88048489993#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146327993/job/89648852286#step:7:1"
       },
       {
         "name": "Test 3 - Check HDFS jar layout",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632376455/job/88048489993#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146327993/job/89648852286#step:8:1"
       },
       {
         "name": "Test 4 - Check hdfs config and classpath",
         "status": "passed",
         "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632376455/job/88048489993#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146327993/job/89648852286#step:9:1"
       },
       {
         "name": "Test 5 - Check namenode help and architecture",
         "status": "passed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632376455/job/88048489993#step:10:1"
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146327993/job/89648852286#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 12,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/29632376455/job/88048489993#step:11:1",
+        "duration_seconds": 25,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146327993/job/89648852286#step:11:1",
         "current_version": "3.3.6",
         "latest_version": "3.4.3",
         "next_installed_version": "3.4.3",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-07-18T07:21:16.034317+00:00",
+    "production_refreshed_at": "2026-07-25T07:32:06.601701+00:00",
     "publish_state": "published"
   }
 }
