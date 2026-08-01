@@ -5,10 +5,10 @@
     "version": "2.8.7"
   },
   "run": {
-    "id": "30146357184",
+    "id": "30686850328",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146357184/job/89648936374",
-    "timestamp": "2026-07-25T06:40:43Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686850328/job/91334260928",
+    "timestamp": "2026-08-01T06:50:22Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -17,52 +17,52 @@
     "job_name": "test-fastai / test-fastai"
   },
   "tests": {
-    "passed": 5,
+    "passed": 6,
     "failed": 0,
-    "skipped": 1,
-    "duration_seconds": 120,
+    "skipped": 0,
+    "duration_seconds": 187,
     "details": [
       {
         "name": "Test 1 - Install FastAI Python package",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146357184/job/89648936374#step:5:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686850328/job/91334260928#step:5:1"
       },
       {
         "name": "Test 2 - Verify FastAI package metadata",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146357184/job/89648936374#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686850328/job/91334260928#step:6:1"
       },
       {
         "name": "Test 3 - Import FastAI and Torch modules",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146357184/job/89648936374#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686850328/job/91334260928#step:7:1"
       },
       {
         "name": "Test 4 - Verify Arm64 Python runtime",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146357184/job/89648936374#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686850328/job/91334260928#step:8:1"
       },
       {
         "name": "Test 5 - Run bounded FastAI tensor smoke",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146357184/job/89648936374#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686850328/job/91334260928#step:9:1"
       },
       {
         "name": "Test 6 - Regression Validation",
-        "status": "skipped",
+        "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146357184/job/89648936374#step:10:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686850328/job/91334260928#step:10:1",
         "current_version": "2.8.7",
-        "latest_version": "2.8.7",
-        "next_installed_version": "not_installed",
-        "decision": "current_is_latest_stable",
-        "regression_result": "Current FastAI version is already latest stable",
-        "comparison": "Baseline FastAI 2.8.7 passed Tests 1-5, and PyPI reports the same version as latest stable. There is no newer stable FastAI candidate for Test 6."
+        "latest_version": "2.8.8",
+        "next_installed_version": "2.8.8",
+        "decision": "next_install_validated",
+        "regression_result": "Next FastAI version installed and passed bounded Arm64 tensor smoke",
+        "comparison": "Baseline FastAI 2.8.7 passed Tests 1-5, and PyPI latest 2.8.8 installed on the Arm64 runner, imported FastAI/Torch, verified the Arm64 Python runtime, and ran the same bounded tensor smoke."
       }
     ]
   },
@@ -77,9 +77,9 @@
     "regression_applicability": "applicable",
     "regression_reason": "",
     "regression_note": "",
-    "regression_status": "skipped",
-    "regression_decision": "current_is_latest_stable",
-    "production_refreshed_at": "2026-07-25T07:32:06.583640+00:00",
+    "regression_status": "passed",
+    "regression_decision": "next_install_validated",
+    "production_refreshed_at": "2026-08-01T07:42:47.893088+00:00",
     "publish_state": "published"
   }
 }

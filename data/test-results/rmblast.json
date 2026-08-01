@@ -2,14 +2,14 @@
   "schema_version": "2.0",
   "package": {
     "name": "RMBlast",
-    "version": "unknown"
+    "version": "2.14.1"
   },
   "run": {
-    "id": "30146330062",
+    "id": "30686818264",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146330062/job/89648858797",
-    "timestamp": "2026-07-25T06:04:23Z",
-    "status": "failure",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686818264/job/91334171890",
+    "timestamp": "2026-08-01T06:06:25Z",
+    "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
       "arch": "arm64"
@@ -17,52 +17,52 @@
     "job_name": "test-rmblast / test-rmblast"
   },
   "tests": {
-    "passed": 0,
-    "failed": 1,
-    "skipped": 5,
-    "duration_seconds": 0,
+    "passed": 6,
+    "failed": 0,
+    "skipped": 0,
+    "duration_seconds": 2438,
     "details": [
       {
         "name": "Test 1 - Check RMBlast binaries exist",
-        "status": "skipped",
+        "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146330062/job/89648858797#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686818264/job/91334171890#step:6:1"
       },
       {
         "name": "Test 2 - Check pinned release version",
-        "status": "skipped",
+        "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146330062/job/89648858797#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686818264/job/91334171890#step:7:1"
       },
       {
         "name": "Test 3 - Check help output",
-        "status": "skipped",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146330062/job/89648858797#step:8:1"
+        "status": "passed",
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686818264/job/91334171890#step:8:1"
       },
       {
         "name": "Test 4 - Architecture Verification",
-        "status": "skipped",
+        "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146330062/job/89648858797#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686818264/job/91334171890#step:9:1"
       },
       {
         "name": "Test 5 - Functional Validation",
-        "status": "skipped",
+        "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146330062/job/89648858797#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686818264/job/91334171890#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
-        "status": "failed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146330062/job/89648858797#step:11:1",
-        "current_version": "unknown",
-        "latest_version": "unknown",
-        "next_installed_version": "not_installed",
-        "decision": "result_not_emitted",
-        "regression_result": "Regression validation step failed before emitting terminal outputs",
-        "comparison": "The package job failed in Actions, but the workflow did not emit a terminal regression decision before exiting."
+        "status": "passed",
+        "duration_seconds": 2437,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686818264/job/91334171890#step:11:1",
+        "current_version": "2.14.1",
+        "latest_version": "2.17.1",
+        "next_installed_version": "2.17.1",
+        "decision": "next_install_validated",
+        "regression_result": "Next version built and passed runtime smoke on Arm64",
+        "comparison": "Current pinned RMBlast release 2.14.1 passed a full Arm64 source build plus makeblastdb/rmblastn self-hit smoke in Tests 1-5. Test 6 downloaded the next public RMBlast patch 2.17.1, selected NCBI BLAST source 2.17.0, applied the patch on the Arm64 runner, built and installed the candidate, verified the candidate rmblastn binary is AArch64, and reran the makeblastdb/rmblastn self-hit runtime smoke successfully."
       }
     ]
   },
@@ -70,16 +70,16 @@
     "contract_version": "2.0",
     "package_slug": "rmblast",
     "dashboard_link": "/linux/opensource_packages/rmblast",
-    "badge_status": "failing",
-    "core_failed": 5,
+    "badge_status": "passing",
+    "core_failed": 0,
     "batch_title": "Batch 7",
     "job_url_resolution_status": "central_exact",
     "regression_applicability": "applicable",
-    "regression_reason": "result_not_emitted",
-    "regression_note": "The Test 6 step failed before the workflow emitted a terminal regression decision.",
-    "regression_status": "failed",
-    "regression_decision": "result_not_emitted",
-    "production_refreshed_at": "2026-07-25T07:32:06.677799+00:00",
+    "regression_reason": "",
+    "regression_note": "",
+    "regression_status": "passed",
+    "regression_decision": "next_install_validated",
+    "production_refreshed_at": "2026-08-01T07:42:48.042043+00:00",
     "publish_state": "published"
   }
 }

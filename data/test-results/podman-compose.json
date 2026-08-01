@@ -5,10 +5,10 @@
     "version": "1.4.1"
   },
   "run": {
-    "id": "30146357184",
+    "id": "30686850328",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146357184/job/89648936398",
-    "timestamp": "2026-07-25T06:37:17Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686850328/job/91334260976",
+    "timestamp": "2026-08-01T06:50:42Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Install Podman Compose Python package",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146357184/job/89648936398#step:5:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686850328/job/91334260976#step:5:1"
       },
       {
         "name": "Test 2 - Check Podman Compose version",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146357184/job/89648936398#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686850328/job/91334260976#step:6:1"
       },
       {
         "name": "Test 3 - Check Podman Compose help output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146357184/job/89648936398#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686850328/job/91334260976#step:7:1"
       },
       {
         "name": "Test 4 - Verify dependencies on Arm64",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146357184/job/89648936398#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686850328/job/91334260976#step:8:1"
       },
       {
         "name": "Test 5 - Render dry-run Compose config",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146357184/job/89648936398#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686850328/job/91334260976#step:9:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146357184/job/89648936398#step:10:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686850328/job/91334260976#step:10:1",
         "current_version": "1.4.1",
         "latest_version": "1.6.0",
         "next_installed_version": "1.6.0",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-07-25T07:32:06.665787+00:00",
+    "production_refreshed_at": "2026-08-01T07:42:48.025524+00:00",
     "publish_state": "published"
   }
 }

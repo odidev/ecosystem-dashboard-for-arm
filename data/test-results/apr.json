@@ -5,10 +5,10 @@
     "version": "1.7.5"
   },
   "run": {
-    "id": "30146317699",
+    "id": "30686805797",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146317699/job/89648823884",
-    "timestamp": "2026-07-25T05:45:38Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686805797/job/91334132988",
+    "timestamp": "2026-08-01T06:02:41Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 223,
+    "duration_seconds": 232,
     "details": [
       {
         "name": "Test 1 - Configure",
         "status": "passed",
-        "duration_seconds": 22,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146317699/job/89648823884#step:7:1"
+        "duration_seconds": 25,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686805797/job/91334132988#step:7:1"
       },
       {
         "name": "Test 2 - Compile (Make)",
         "status": "passed",
-        "duration_seconds": 17,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146317699/job/89648823884#step:8:1"
+        "duration_seconds": 20,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686805797/job/91334132988#step:8:1"
       },
       {
         "name": "Test 3 - Run Tests (Make Test)",
         "status": "passed",
-        "duration_seconds": 163,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146317699/job/89648823884#step:9:1"
+        "duration_seconds": 165,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686805797/job/91334132988#step:9:1"
       },
       {
         "name": "Test 4 - Install (Dry Run)",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146317699/job/89648823884#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686805797/job/91334132988#step:10:1"
       },
       {
         "name": "Test 5 - Check Installed Libs",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146317699/job/89648823884#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686805797/job/91334132988#step:11:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 21,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30146317699/job/89648823884#step:12:1",
+        "duration_seconds": 22,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686805797/job/91334132988#step:12:1",
         "current_version": "1.7.5",
         "latest_version": "1.7.6",
         "next_installed_version": "1.7.6",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-07-25T07:32:06.546412+00:00",
+    "production_refreshed_at": "2026-08-01T07:42:47.829992+00:00",
     "publish_state": "published"
   }
 }
