@@ -5,10 +5,10 @@
     "version": "5.1.0"
   },
   "run": {
-    "id": "30686816181",
+    "id": "31238927211",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686816181/job/91334160651",
-    "timestamp": "2026-08-01T06:09:08Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238927211/job/93056452915",
+    "timestamp": "2026-08-08T04:21:31Z",
     "status": "failure",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 1,
     "failed": 5,
     "skipped": 0,
-    "duration_seconds": 1,
+    "duration_seconds": 3,
     "details": [
       {
         "name": "Test 1 - Package installed",
         "status": "failed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686816181/job/91334160651#step:7:1"
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238927211/job/93056452915#step:7:1"
       },
       {
         "name": "Test 2 - Version is pinned",
         "status": "failed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686816181/job/91334160651#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238927211/job/93056452915#step:8:1"
       },
       {
         "name": "Test 3 - CSS and webfont assets exist",
         "status": "failed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686816181/job/91334160651#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238927211/job/93056452915#step:9:1"
       },
       {
         "name": "Test 4 - Architecture verification",
         "status": "failed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686816181/job/91334160651#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238927211/job/93056452915#step:10:1"
       },
       {
         "name": "Test 5 - Parse webfont with font engine",
         "status": "failed",
-        "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686816181/job/91334160651#step:11:1"
+        "duration_seconds": 0,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238927211/job/93056452915#step:11:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686816181/job/91334160651#step:12:1",
+        "duration_seconds": 2,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238927211/job/93056452915#step:12:1",
         "current_version": "5.1.0",
         "latest_version": "5.1.1",
         "next_installed_version": "5.1.1",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-08-01T07:42:47.900519+00:00",
+    "production_refreshed_at": "2026-08-08T05:56:23.246582+00:00",
     "publish_state": "published"
   }
 }

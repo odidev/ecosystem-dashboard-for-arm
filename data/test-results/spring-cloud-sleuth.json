@@ -5,10 +5,10 @@
     "version": "3.1.5"
   },
   "run": {
-    "id": "30686807951",
+    "id": "31238918082",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686807951/job/91334137211",
-    "timestamp": "2026-08-01T05:59:05Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238918082/job/93056432569",
+    "timestamp": "2026-08-08T04:14:10Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Create Maven Project",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686807951/job/91334137211#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238918082/job/93056432569#step:6:1"
       },
       {
         "name": "Test 2 - Resolve Dependencies",
         "status": "passed",
         "duration_seconds": 22,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686807951/job/91334137211#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238918082/job/93056432569#step:7:1"
       },
       {
         "name": "Test 3 - Compile Spring tiny app and unit test",
         "status": "passed",
         "duration_seconds": 6,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686807951/job/91334137211#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238918082/job/93056432569#step:8:1"
       },
       {
         "name": "Test 4 - Architecture Verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686807951/job/91334137211#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238918082/job/93056432569#step:9:1"
       },
       {
         "name": "Test 5 - Functional Validation - Spring app unit test",
         "status": "passed",
         "duration_seconds": 2,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686807951/job/91334137211#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238918082/job/93056432569#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 10,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686807951/job/91334137211#step:11:1",
+        "duration_seconds": 6,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238918082/job/93056432569#step:11:1",
         "current_version": "3.1.5",
         "latest_version": "3.1.11",
         "next_installed_version": "3.1.11",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-08-01T07:42:48.058241+00:00",
+    "production_refreshed_at": "2026-08-08T05:56:23.351038+00:00",
     "publish_state": "published"
   }
 }

@@ -5,10 +5,10 @@
     "version": "2.1.1"
   },
   "run": {
-    "id": "30686843698",
+    "id": "31238960769",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686843698/job/91334243474",
-    "timestamp": "2026-08-01T06:38:38Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238960769/job/93056538580",
+    "timestamp": "2026-08-08T04:55:02Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Check pmempool utility exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686843698/job/91334243474#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238960769/job/93056538580#step:6:1"
       },
       {
         "name": "Test 2 - Check exact release version",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686843698/job/91334243474#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238960769/job/93056538580#step:7:1"
       },
       {
         "name": "Test 3 - Check pmempool help output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686843698/job/91334243474#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238960769/job/93056538580#step:8:1"
       },
       {
         "name": "Test 4 - Architecture verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686843698/job/91334243474#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238960769/job/93056538580#step:9:1"
       },
       {
         "name": "Test 5 - Functional validation",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686843698/job/91334243474#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238960769/job/93056538580#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686843698/job/91334243474#step:11:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238960769/job/93056538580#step:11:1",
         "current_version": "2.1.1",
         "latest_version": "2.1.1",
         "next_installed_version": "not_installed",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "skipped",
     "regression_decision": "no_newer_stable_available",
-    "production_refreshed_at": "2026-08-01T07:42:48.025161+00:00",
+    "production_refreshed_at": "2026-08-08T05:56:23.328154+00:00",
     "publish_state": "published"
   }
 }

@@ -5,10 +5,10 @@
     "version": "4.0.0"
   },
   "run": {
-    "id": "30686818264",
+    "id": "31238929759",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686818264/job/91334171614",
-    "timestamp": "2026-08-01T06:07:53Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238929759/job/93056459450",
+    "timestamp": "2026-08-08T04:23:01Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 24,
+    "duration_seconds": 29,
     "details": [
       {
         "name": "Test 1 - Check Hive scripts exist",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686818264/job/91334171614#step:13:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238929759/job/93056459450#step:13:1"
       },
       {
         "name": "Test 2 - Check exact Hive version",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686818264/job/91334171614#step:14:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238929759/job/93056459450#step:14:1"
       },
       {
         "name": "Test 3 - Check Hive jar layout",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686818264/job/91334171614#step:15:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238929759/job/93056459450#step:15:1"
       },
       {
         "name": "Test 4 - Check Hive help commands",
         "status": "passed",
         "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686818264/job/91334171614#step:16:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238929759/job/93056459450#step:16:1"
       },
       {
         "name": "Test 5 - Check Beeline help and architecture",
         "status": "passed",
-        "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686818264/job/91334171614#step:17:1"
+        "duration_seconds": 2,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238929759/job/93056459450#step:17:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 22,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/30686818264/job/91334171614#step:18:1",
+        "duration_seconds": 26,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238929759/job/93056459450#step:18:1",
         "current_version": "4.0.0",
         "latest_version": "4.2.0",
         "next_installed_version": "4.2.0",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-08-01T07:42:47.926377+00:00",
+    "production_refreshed_at": "2026-08-08T05:56:23.260956+00:00",
     "publish_state": "published"
   }
 }
