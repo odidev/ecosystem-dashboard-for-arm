@@ -5,10 +5,10 @@
     "version": "9.9.4"
   },
   "run": {
-    "id": "31238949561",
+    "id": "31862530197",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238949561/job/93056512248",
-    "timestamp": "2026-08-08T04:49:12Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862530197/job/94958277877",
+    "timestamp": "2026-08-15T04:16:20Z",
     "status": "failure",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,39 +26,39 @@
         "name": "Test 1 - Baseline package evidence",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238949561/job/93056512248#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862530197/job/94958277877#step:8:1"
       },
       {
         "name": "Test 2 - Baseline version and release alignment",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238949561/job/93056512248#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862530197/job/94958277877#step:9:1"
       },
       {
         "name": "Test 3 - Package-specific source or docs evidence",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238949561/job/93056512248#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862530197/job/94958277877#step:10:1"
       },
       {
         "name": "Test 4 - Arm64 support gate",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238949561/job/93056512248#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862530197/job/94958277877#step:11:1"
       },
       {
         "name": "Test 5 - Bounded package-specific smoke",
         "status": "passed",
         "duration_seconds": 7,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238949561/job/93056512248#step:12:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862530197/job/94958277877#step:12:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "failed",
         "duration_seconds": 8,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31238949561/job/93056512248#step:14:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862530197/job/94958277877#step:14:1",
         "current_version": "9.9.4",
-        "latest_version": "9.47.0",
+        "latest_version": "9.48.0",
         "next_installed_version": "limited_cpu_probe_failed",
         "decision": "limited_cpu_smoke_failed",
         "regression_result": "Arm preflight proof failed on Arm64",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "failed",
     "regression_decision": "limited_cpu_smoke_failed",
-    "production_refreshed_at": "2026-08-08T05:56:23.250548+00:00",
+    "production_refreshed_at": "2026-08-15T05:34:21.396323+00:00",
     "publish_state": "published"
   }
 }
