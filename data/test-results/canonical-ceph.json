@@ -5,10 +5,10 @@
     "version": "19.2.3-0ubuntu0.24.04.3"
   },
   "run": {
-    "id": "31862497209",
+    "id": "32549815223",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862497209/job/94958194844",
-    "timestamp": "2026-08-15T03:58:56Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549815223/job/96974605264",
+    "timestamp": "2026-08-22T03:53:18Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Install Canonical Ceph client package",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862497209/job/94958194844#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549815223/job/96974605264#step:8:1"
       },
       {
         "name": "Test 2 - Validate dashboard metadata and supported baseline",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862497209/job/94958194844#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549815223/job/96974605264#step:9:1"
       },
       {
         "name": "Test 3 - Verify Ceph client commands and package files",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862497209/job/94958194844#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549815223/job/96974605264#step:10:1"
       },
       {
         "name": "Test 4 - Verify Arm64 runner and package architecture",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862497209/job/94958194844#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549815223/job/96974605264#step:11:1"
       },
       {
         "name": "Test 5 - Run bounded Ceph client smoke",
         "status": "passed",
-        "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862497209/job/94958194844#step:12:1"
+        "duration_seconds": 0,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549815223/job/96974605264#step:12:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862497209/job/94958194844#step:13:1"
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549815223/job/96974605264#step:13:1"
       }
     ]
   },
@@ -72,7 +72,7 @@
     "regression_reason": "package_manager_installed",
     "regression_note": "Regression validation not applicable: tested package installed via package manager in Tests 1-5.",
     "regression_status": "passed",
-    "production_refreshed_at": "2026-08-15T05:34:21.362523+00:00",
+    "production_refreshed_at": "2026-08-22T05:32:19.416864+00:00",
     "publish_state": "published"
   }
 }

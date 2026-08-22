@@ -5,10 +5,10 @@
     "version": "2.0.0"
   },
   "run": {
-    "id": "31862494056",
+    "id": "32549812200",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862494056/job/94958182594",
-    "timestamp": "2026-08-15T03:54:25Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549812200/job/96974595307",
+    "timestamp": "2026-08-22T03:49:33Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 43,
+    "duration_seconds": 44,
     "details": [
       {
         "name": "Test 1 - Create Shiro Maven test project",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862494056/job/94958182594#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549812200/job/96974595307#step:6:1"
       },
       {
         "name": "Test 2 - Resolve Shiro dependency artifact",
         "status": "passed",
-        "duration_seconds": 29,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862494056/job/94958182594#step:7:1"
+        "duration_seconds": 31,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549812200/job/96974595307#step:7:1"
       },
       {
         "name": "Test 3 - Compile Shiro JUnit test",
         "status": "passed",
         "duration_seconds": 6,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862494056/job/94958182594#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549812200/job/96974595307#step:8:1"
       },
       {
         "name": "Test 4 - Architecture Verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862494056/job/94958182594#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549812200/job/96974595307#step:9:1"
       },
       {
         "name": "Test 5 - Functional Validation - Shiro auth JUnit",
         "status": "passed",
-        "duration_seconds": 8,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862494056/job/94958182594#step:10:1"
+        "duration_seconds": 7,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549812200/job/96974595307#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 14,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862494056/job/94958182594#step:11:1",
+        "duration_seconds": 16,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549812200/job/96974595307#step:11:1",
         "current_version": "2.0.0",
         "latest_version": "2.1.0",
         "next_installed_version": "2.1.0",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-08-15T05:34:21.352295+00:00",
+    "production_refreshed_at": "2026-08-22T05:32:19.404308+00:00",
     "publish_state": "published"
   }
 }

@@ -5,10 +5,10 @@
     "version": "7.17.27"
   },
   "run": {
-    "id": "31862537365",
+    "id": "32549859973",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862537365/job/94958293353",
-    "timestamp": "2026-08-15T04:23:16Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549859973/job/96974719435",
+    "timestamp": "2026-08-22T04:21:46Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 5,
+    "duration_seconds": 3,
     "details": [
       {
         "name": "Test 1 - Check Functionbeat binary exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862537365/job/94958293353#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549859973/job/96974719435#step:6:1"
       },
       {
         "name": "Test 2 - Check Functionbeat version output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862537365/job/94958293353#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549859973/job/96974719435#step:7:1"
       },
       {
         "name": "Test 3 - Check Functionbeat help output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862537365/job/94958293353#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549859973/job/96974719435#step:8:1"
       },
       {
         "name": "Test 4 - Verify architecture",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862537365/job/94958293353#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549859973/job/96974719435#step:9:1"
       },
       {
         "name": "Test 5 - Export Functionbeat template",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862537365/job/94958293353#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549859973/job/96974719435#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 5,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862537365/job/94958293353#step:11:1",
+        "duration_seconds": 3,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549859973/job/96974719435#step:11:1",
         "current_version": "7.17.27",
         "latest_version": "7.17.28",
         "next_installed_version": "7.17.28",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-08-15T05:34:21.394187+00:00",
+    "production_refreshed_at": "2026-08-22T05:32:19.471420+00:00",
     "publish_state": "published"
   }
 }

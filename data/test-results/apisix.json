@@ -5,10 +5,10 @@
     "version": "3.12.0"
   },
   "run": {
-    "id": "31862487306",
+    "id": "32549805129",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862487306/job/94958167530",
-    "timestamp": "2026-08-15T03:52:10Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549805129/job/96974576865",
+    "timestamp": "2026-08-22T03:45:53Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Check container running",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862487306/job/94958167530#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549805129/job/96974576865#step:6:1"
       },
       {
         "name": "Test 2 - Check Admin API",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862487306/job/94958167530#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549805129/job/96974576865#step:7:1"
       },
       {
         "name": "Test 3 - Create a Route",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862487306/job/94958167530#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549805129/job/96974576865#step:8:1"
       },
       {
         "name": "Test 4 - Access the Route",
         "status": "passed",
         "duration_seconds": 5,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862487306/job/94958167530#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549805129/job/96974576865#step:9:1"
       },
       {
         "name": "Test 5 - Check Admin Routes Again",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862487306/job/94958167530#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549805129/job/96974576865#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 7,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862487306/job/94958167530#step:11:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549805129/job/96974576865#step:11:1",
         "current_version": "3.12.0",
         "latest_version": "3.13.0",
         "next_installed_version": "3.13.0",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-08-15T05:34:21.353494+00:00",
+    "production_refreshed_at": "2026-08-22T05:32:19.405379+00:00",
     "publish_state": "published"
   }
 }

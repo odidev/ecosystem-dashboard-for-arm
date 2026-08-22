@@ -5,10 +5,10 @@
     "version": "0.1.2"
   },
   "run": {
-    "id": "31862554859",
+    "id": "32549877612",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862554859/job/94958340309",
-    "timestamp": "2026-08-15T04:38:53Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549877612/job/96974766306",
+    "timestamp": "2026-08-22T04:37:00Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 11,
+    "duration_seconds": 25,
     "details": [
       {
         "name": "Test 1 - Download baseline source tag",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862554859/job/94958340309#step:5:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549877612/job/96974766306#step:5:1"
       },
       {
         "name": "Test 2 - Verify expected source layout",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862554859/job/94958340309#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549877612/job/96974766306#step:6:1"
       },
       {
         "name": "Test 3 - Validate Arm64 image manifests",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862554859/job/94958340309#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549877612/job/96974766306#step:7:1"
       },
       {
         "name": "Test 4 - Pull baseline Arm64 images",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862554859/job/94958340309#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549877612/job/96974766306#step:8:1"
       },
       {
         "name": "Test 5 - Inspect baseline images on Arm64",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862554859/job/94958340309#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549877612/job/96974766306#step:9:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862554859/job/94958340309#step:10:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549877612/job/96974766306#step:10:1",
         "current_version": "0.1.2",
         "latest_version": "0.3.0",
         "next_installed_version": "0.3.0",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-08-15T05:34:21.410437+00:00",
+    "production_refreshed_at": "2026-08-22T05:32:19.493807+00:00",
     "publish_state": "published"
   }
 }

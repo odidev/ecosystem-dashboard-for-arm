@@ -5,10 +5,10 @@
     "version": "9.0.4"
   },
   "run": {
-    "id": "31862517098",
+    "id": "32549835598",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862517098/job/94958240017",
-    "timestamp": "2026-08-15T04:02:52Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549835598/job/96974659021",
+    "timestamp": "2026-08-22T04:03:40Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 6,
+    "duration_seconds": 5,
     "details": [
       {
         "name": "Test 1 - Check Metricbeat binary exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862517098/job/94958240017#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549835598/job/96974659021#step:6:1"
       },
       {
         "name": "Test 2 - Check Metricbeat version output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862517098/job/94958240017#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549835598/job/96974659021#step:7:1"
       },
       {
         "name": "Test 3 - Check Metricbeat help output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862517098/job/94958240017#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549835598/job/96974659021#step:8:1"
       },
       {
         "name": "Test 4 - Check Metricbeat configuration",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862517098/job/94958240017#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549835598/job/96974659021#step:9:1"
       },
       {
         "name": "Test 5 - List modules and verify architecture",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862517098/job/94958240017#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549835598/job/96974659021#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 6,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/31862517098/job/94958240017#step:11:1",
+        "duration_seconds": 5,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549835598/job/96974659021#step:11:1",
         "current_version": "9.0.4",
         "latest_version": "9.0.5",
         "next_installed_version": "9.0.5",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-08-15T05:34:21.435471+00:00",
+    "production_refreshed_at": "2026-08-22T05:32:19.538944+00:00",
     "publish_state": "published"
   }
 }
