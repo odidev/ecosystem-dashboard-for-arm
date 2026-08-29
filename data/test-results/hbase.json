@@ -2,14 +2,14 @@
   "schema_version": "2.0",
   "package": {
     "name": "HBase",
-    "version": "2.5.13-hadoop3"
+    "version": "2.5.13"
   },
   "run": {
-    "id": "32549820995",
+    "id": "33246443743",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549820995/job/96974622197",
-    "timestamp": "2026-08-22T03:57:26Z",
-    "status": "success",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246443743/job/99084631796",
+    "timestamp": "2026-08-29T09:58:07Z",
+    "status": "failure",
     "runner": {
       "os": "ubuntu-24.04",
       "arch": "arm64"
@@ -17,52 +17,60 @@
     "job_name": "test-hbase / test-hbase"
   },
   "tests": {
-    "passed": 6,
-    "failed": 0,
-    "skipped": 0,
-    "duration_seconds": 107,
+    "passed": 5,
+    "failed": 1,
+    "skipped": 1,
+    "duration_seconds": 0,
     "details": [
       {
         "name": "Test 1 - Check hbase script exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549820995/job/96974622197#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246443743/job/99084631796#step:7:1"
       },
       {
         "name": "Test 2 - Check exact version output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549820995/job/96974622197#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246443743/job/99084631796#step:8:1"
       },
       {
         "name": "Test 3 - Check configuration files",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549820995/job/96974622197#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246443743/job/99084631796#step:9:1"
       },
       {
         "name": "Test 4 - Check exact server jar",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549820995/job/96974622197#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246443743/job/99084631796#step:10:1"
       },
       {
         "name": "Test 5 - Start HBase master briefly",
         "status": "passed",
-        "duration_seconds": 21,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549820995/job/96974622197#step:11:1"
+        "duration_seconds": 0,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246443743/job/99084631796#step:11:1"
       },
       {
         "name": "Test 6 - Regression Validation",
-        "status": "passed",
-        "duration_seconds": 86,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549820995/job/96974622197#step:12:1",
-        "current_version": "2.5.13-hadoop3",
-        "latest_version": "2.5.14",
-        "next_installed_version": "2.5.14-hadoop3",
-        "decision": "next_install_validated",
-        "regression_result": "Next version installed successfully on Arm64",
-        "comparison": "Current pinned HBase version 2.5.13-hadoop3 passed the baseline startup smoke on Arm64. Regression validation downloaded the next newer official HBase 2.5.14 hadoop3 binary distribution, and the candidate reported version 2.5.14-hadoop3 while exposing the expected server JAR and configuration files."
+        "status": "skipped",
+        "duration_seconds": 0,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246443743/job/99084631796#step:12:1",
+        "current_version": "2.5.13",
+        "latest_version": "2.5.13",
+        "next_installed_version": "not_installed",
+        "decision": "baseline_failed",
+        "regression_result": "Regression validation skipped because one or more baseline tests (1-5) failed.",
+        "comparison": "Baseline tests failed, so next-version validation is not trustworthy for this run."
+      },
+      {
+        "name": "Workflow Finalization",
+        "status": "failed",
+        "duration_seconds": 0,
+        "decision": "job_failed_without_emitted_result",
+        "regression_result": "Package job failed before the workflow emitted a trustworthy final summary",
+        "comparison": "Actions marked this package job as failed, but no terminal failure payload was emitted for publication."
       }
     ]
   },
@@ -70,16 +78,16 @@
     "contract_version": "2.0",
     "package_slug": "hbase",
     "dashboard_link": "/linux/opensource_packages/hbase",
-    "badge_status": "passing",
-    "core_failed": 0,
+    "badge_status": "failing",
+    "core_failed": 1,
     "batch_title": "Batch 6",
     "job_url_resolution_status": "central_exact",
     "regression_applicability": "applicable",
     "regression_reason": "",
     "regression_note": "",
-    "regression_status": "passed",
-    "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-08-22T05:32:19.484965+00:00",
+    "regression_status": "skipped",
+    "regression_decision": "baseline_failed",
+    "production_refreshed_at": "2026-08-29T11:55:27.592415+00:00",
     "publish_state": "published"
   }
 }

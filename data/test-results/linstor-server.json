@@ -5,10 +5,10 @@
     "version": "1.33.1-101-87a659de4"
   },
   "run": {
-    "id": "32549831793",
+    "id": "33246452695",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549831793/job/96974650585",
-    "timestamp": "2026-08-22T04:07:26Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246452695/job/99084652020",
+    "timestamp": "2026-08-29T10:05:06Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,49 +20,49 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 104,
+    "duration_seconds": 100,
     "details": [
       {
         "name": "Test 1 - Check recursive build artifacts",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549831793/job/96974650585#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246452695/job/99084652020#step:6:1"
       },
       {
         "name": "Test 2 - Check exact version metadata",
         "status": "passed",
-        "duration_seconds": 5,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549831793/job/96974650585#step:7:1"
+        "duration_seconds": 0,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246452695/job/99084652020#step:7:1"
       },
       {
         "name": "Test 3 - Check Controller distribution help",
         "status": "passed",
         "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549831793/job/96974650585#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246452695/job/99084652020#step:8:1"
       },
       {
         "name": "Test 4 - Architecture Verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549831793/job/96974650585#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246452695/job/99084652020#step:9:1"
       },
       {
         "name": "Test 5 - Check Satellite distribution help",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549831793/job/96974650585#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246452695/job/99084652020#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 103,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549831793/job/96974650585#step:11:1",
+        "duration_seconds": 99,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246452695/job/99084652020#step:11:1",
         "current_version": "1.33.1-101-87a659de4",
-        "latest_version": "master-a540162e1",
-        "next_installed_version": "1.35.0-rc.1",
+        "latest_version": "master-c8c5ad1bb",
+        "next_installed_version": "1.35.0",
         "decision": "next_install_validated",
         "regression_result": "Next version installed successfully on Arm64",
-        "comparison": "Current LINSTOR baseline commit 87a659de4 passed Tests 1-5, and the next newer default-branch commit a540162e1 built successfully with controller and satellite distributions on Arm64."
+        "comparison": "Current LINSTOR baseline commit 87a659de4 passed Tests 1-5, and the next newer default-branch commit c8c5ad1bb built successfully with controller and satellite distributions on Arm64."
       }
     ]
   },
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-08-22T05:32:19.524309+00:00",
+    "production_refreshed_at": "2026-08-29T11:55:27.619697+00:00",
     "publish_state": "published"
   }
 }

@@ -5,10 +5,10 @@
     "version": "0.16.0"
   },
   "run": {
-    "id": "32549831793",
+    "id": "33246452695",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549831793/job/96974650941",
-    "timestamp": "2026-08-22T04:04:31Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246452695/job/99084652313",
+    "timestamp": "2026-08-29T10:09:19Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -25,41 +25,41 @@
       {
         "name": "Test 1 - Baseline package evidence",
         "status": "passed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549831793/job/96974650941#step:7:1"
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246452695/job/99084652313#step:7:1"
       },
       {
         "name": "Test 2 - Baseline version and release alignment",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549831793/job/96974650941#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246452695/job/99084652313#step:8:1"
       },
       {
         "name": "Test 3 - Package-specific source or docs evidence",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549831793/job/96974650941#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246452695/job/99084652313#step:9:1"
       },
       {
         "name": "Test 4 - Architecture Verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549831793/job/96974650941#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246452695/job/99084652313#step:10:1"
       },
       {
         "name": "Test 5 - Run scoped Arm preflight proof",
         "status": "passed",
-        "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549831793/job/96974650941#step:11:1"
+        "duration_seconds": 0,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246452695/job/99084652313#step:11:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 4,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549831793/job/96974650941#step:12:1",
+        "duration_seconds": 5,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246452695/job/99084652313#step:12:1",
         "current_version": "0.16.0",
-        "latest_version": "26.08.00",
-        "next_installed_version": "26.08.00",
+        "latest_version": "26.08.01",
+        "next_installed_version": "26.08.01",
         "decision": "limited_cpu_smoke_validated",
         "regression_result": "Arm preflight proof passed on Arm64",
         "comparison": "Test 6 limited_cpu_smoke_validated: reran the same bounded scoped Arm source/compile/import/help/manifest preflight against the next stable candidate. This is CPU-side preflight evidence only; no GPU/CUDA driver/runtime, accelerator execution, Kubernetes cluster, or full product runtime is claimed."
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "limited_cpu_smoke_validated",
-    "production_refreshed_at": "2026-08-22T05:32:19.434551+00:00",
+    "production_refreshed_at": "2026-08-29T11:55:27.552664+00:00",
     "publish_state": "published"
   }
 }

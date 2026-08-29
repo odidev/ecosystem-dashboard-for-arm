@@ -5,10 +5,10 @@
     "version": "2.1.1"
   },
   "run": {
-    "id": "32549818032",
+    "id": "33246441069",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549818032/job/96974612923",
-    "timestamp": "2026-08-22T04:00:09Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246441069/job/99084621458",
+    "timestamp": "2026-08-29T10:02:49Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Check flink binary exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549818032/job/96974612923#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246441069/job/99084621458#step:6:1"
       },
       {
         "name": "Test 2 - Check flink version command",
         "status": "passed",
         "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549818032/job/96974612923#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246441069/job/99084621458#step:7:1"
       },
       {
         "name": "Test 3 - Check start-cluster script",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549818032/job/96974612923#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246441069/job/99084621458#step:8:1"
       },
       {
         "name": "Test 4 - Start local cluster",
         "status": "passed",
         "duration_seconds": 16,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549818032/job/96974612923#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246441069/job/99084621458#step:9:1"
       },
       {
         "name": "Test 5 - Stop local cluster and verify architecture",
         "status": "passed",
         "duration_seconds": 11,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549818032/job/96974612923#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246441069/job/99084621458#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549818032/job/96974612923#step:11:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246441069/job/99084621458#step:11:1",
         "current_version": "2.1.1",
         "latest_version": "2.1.1",
         "next_installed_version": "2.1.1",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "skipped",
     "regression_decision": "no_newer_stable_available",
-    "production_refreshed_at": "2026-08-22T05:32:19.467729+00:00",
+    "production_refreshed_at": "2026-08-29T11:55:27.575677+00:00",
     "publish_state": "published"
   }
 }

@@ -5,10 +5,10 @@
     "version": "4.13.1"
   },
   "run": {
-    "id": "32549805129",
+    "id": "33246430560",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549805129/job/96974576869",
-    "timestamp": "2026-08-22T03:45:59Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246430560/job/99084594048",
+    "timestamp": "2026-08-29T09:52:06Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -25,38 +25,38 @@
       {
         "name": "Test 1 - Check JAR Execution",
         "status": "passed",
-        "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549805129/job/96974576869#step:7:1"
+        "duration_seconds": 0,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246430560/job/99084594048#step:7:1"
       },
       {
         "name": "Test 2 - Create Grammar File",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549805129/job/96974576869#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246430560/job/99084594048#step:8:1"
       },
       {
         "name": "Test 3 - Compile Grammar",
         "status": "passed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549805129/job/96974576869#step:9:1"
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246430560/job/99084594048#step:9:1"
       },
       {
         "name": "Test 4 - Check Generated Files",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549805129/job/96974576869#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246430560/job/99084594048#step:10:1"
       },
       {
         "name": "Test 5 - Compile Generated Java Code",
         "status": "passed",
         "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549805129/job/96974576869#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246430560/job/99084594048#step:11:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549805129/job/96974576869#step:12:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246430560/job/99084594048#step:12:1",
         "current_version": "4.13.1",
         "latest_version": "4.13.2",
         "next_installed_version": "4.13.2",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-08-22T05:32:19.403834+00:00",
+    "production_refreshed_at": "2026-08-29T11:55:27.527572+00:00",
     "publish_state": "published"
   }
 }

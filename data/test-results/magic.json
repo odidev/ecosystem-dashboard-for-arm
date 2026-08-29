@@ -5,10 +5,10 @@
     "version": "8.3.105+ds.1-1.1"
   },
   "run": {
-    "id": "32549871341",
+    "id": "33246480876",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549871341/job/96974748341",
-    "timestamp": "2026-08-22T04:33:37Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246480876/job/99084728401",
+    "timestamp": "2026-08-29T10:42:33Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 0,
+    "duration_seconds": 1,
     "details": [
       {
         "name": "Test 1 - Package-manager install evidence",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549871341/job/96974748341#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246480876/job/99084728401#step:6:1"
       },
       {
         "name": "Test 2 - Installed Arm64 package metadata",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549871341/job/96974748341#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246480876/job/99084728401#step:7:1"
       },
       {
         "name": "Test 3 - CLI version starts on Arm",
         "status": "passed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549871341/job/96974748341#step:8:1"
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246480876/job/99084728401#step:8:1"
       },
       {
         "name": "Test 4 - Arm64 runner gate",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549871341/job/96974748341#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246480876/job/99084728401#step:9:1"
       },
       {
         "name": "Test 5 - Headless runtime smoke",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549871341/job/96974748341#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246480876/job/99084728401#step:10:1"
       },
       {
         "name": "Test 6 - Regression validation applicability",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549871341/job/96974748341#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246480876/job/99084728401#step:11:1"
       }
     ]
   },
@@ -71,7 +71,7 @@
     "regression_applicability": "not_applicable",
     "regression_reason": "package_manager_installed",
     "regression_note": "Regression validation not applicable: tested package installed via package manager in Tests 1-5.",
-    "production_refreshed_at": "2026-08-22T05:32:19.534066+00:00",
+    "production_refreshed_at": "2026-08-29T11:55:27.626229+00:00",
     "publish_state": "published"
   }
 }

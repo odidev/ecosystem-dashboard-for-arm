@@ -5,10 +5,10 @@
     "version": "4.1.2"
   },
   "run": {
-    "id": "32549877612",
+    "id": "33246487466",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549877612/job/96974766291",
-    "timestamp": "2026-08-22T04:34:24Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246487466/job/99084744032",
+    "timestamp": "2026-08-29T10:46:00Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 122,
+    "duration_seconds": 113,
     "details": [
       {
         "name": "Test 1 - Download Kafka baseline distribution",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549877612/job/96974766291#step:5:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246487466/job/99084744032#step:5:1"
       },
       {
         "name": "Test 2 - Verify MirrorMaker script",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549877612/job/96974766291#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246487466/job/99084744032#step:6:1"
       },
       {
         "name": "Test 3 - Check MirrorMaker CLI help",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549877612/job/96974766291#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246487466/job/99084744032#step:7:1"
       },
       {
         "name": "Test 4 - Verify MirrorMaker libraries",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549877612/job/96974766291#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246487466/job/99084744032#step:8:1"
       },
       {
         "name": "Test 5 - Verify MirrorMaker references on Arm64",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549877612/job/96974766291#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246487466/job/99084744032#step:9:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549877612/job/96974766291#step:10:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246487466/job/99084744032#step:10:1",
         "current_version": "4.1.2",
         "latest_version": "4.2.0",
         "next_installed_version": "4.2.0",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-08-22T05:32:19.501452+00:00",
+    "production_refreshed_at": "2026-08-29T11:55:27.603746+00:00",
     "publish_state": "published"
   }
 }

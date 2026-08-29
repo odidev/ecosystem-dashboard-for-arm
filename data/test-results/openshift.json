@@ -5,10 +5,10 @@
     "version": "4.14.0"
   },
   "run": {
-    "id": "32549859973",
+    "id": "33246471586",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549859973/job/96974719411",
-    "timestamp": "2026-08-22T04:21:57Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246471586/job/99084711362",
+    "timestamp": "2026-08-29T10:31:34Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,49 +20,49 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 2,
+    "duration_seconds": 3,
     "details": [
       {
         "name": "Test 1 - Check oc binary",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549859973/job/96974719411#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246471586/job/99084711362#step:6:1"
       },
       {
         "name": "Test 2 - Check kubectl binary",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549859973/job/96974719411#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246471586/job/99084711362#step:7:1"
       },
       {
         "name": "Test 3 - Check client version output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549859973/job/96974719411#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246471586/job/99084711362#step:8:1"
       },
       {
         "name": "Test 4 - Architecture Verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549859973/job/96974719411#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246471586/job/99084711362#step:9:1"
       },
       {
         "name": "Test 5 - Functional Validation",
         "status": "passed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549859973/job/96974719411#step:10:1"
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246471586/job/99084711362#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 2,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/32549859973/job/96974719411#step:11:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246471586/job/99084711362#step:11:1",
         "current_version": "4.14.0",
-        "latest_version": "4.22.9",
-        "next_installed_version": "4.22.9",
+        "latest_version": "4.22.10",
+        "next_installed_version": "4.22.10",
         "decision": "next_install_validated",
         "regression_result": "Next version installed successfully on Arm64",
-        "comparison": "Current pinned OpenShift Client version 4.14.0 passed smoke tests in this run. Regression validation installed candidate version 4.22.9 on Arm64, and the extracted client binaries reported version 4.22.9 while passing help, completion, and kubectl client checks."
+        "comparison": "Current pinned OpenShift Client version 4.14.0 passed smoke tests in this run. Regression validation installed candidate version 4.22.10 on Arm64, and the extracted client binaries reported version 4.22.10 while passing help, completion, and kubectl client checks."
       }
     ]
   },
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-08-22T05:32:19.575142+00:00",
+    "production_refreshed_at": "2026-08-29T11:55:27.655060+00:00",
     "publish_state": "published"
   }
 }
