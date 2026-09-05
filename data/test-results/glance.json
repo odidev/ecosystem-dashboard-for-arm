@@ -5,10 +5,10 @@
     "version": "2:28.1.0-0ubuntu1.2"
   },
   "run": {
-    "id": "33246438193",
+    "id": "33952766123",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246438193/job/99084615482",
-    "timestamp": "2026-08-29T09:54:56Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952766123/job/101270497630",
+    "timestamp": "2026-09-05T07:34:00Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Check glance-api binary exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246438193/job/99084615482#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952766123/job/101270497630#step:6:1"
       },
       {
         "name": "Test 2 - Check glance-api version command",
         "status": "passed",
         "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246438193/job/99084615482#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952766123/job/101270497630#step:7:1"
       },
       {
         "name": "Test 3 - Check glance-manage binary exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246438193/job/99084615482#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952766123/job/101270497630#step:8:1"
       },
       {
         "name": "Test 4 - Check config directory or file",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246438193/job/99084615482#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952766123/job/101270497630#step:9:1"
       },
       {
         "name": "Test 5 - Check glance-scrubber binary exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246438193/job/99084615482#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952766123/job/101270497630#step:10:1"
       },
       {
         "name": "Regression applicability - package manager installed",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246438193/job/99084615482#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952766123/job/101270497630#step:11:1"
       }
     ]
   },
@@ -71,7 +71,7 @@
     "regression_applicability": "not_applicable",
     "regression_reason": "package_manager_installed",
     "regression_note": "Regression validation not applicable: tested package installed via package manager in Tests 1-5.",
-    "production_refreshed_at": "2026-08-29T11:55:27.584248+00:00",
+    "production_refreshed_at": "2026-09-05T09:16:47.771403+00:00",
     "publish_state": "published"
   }
 }

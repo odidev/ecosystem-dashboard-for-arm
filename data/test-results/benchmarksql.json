@@ -5,10 +5,10 @@
     "version": "REL6_0_RC2"
   },
   "run": {
-    "id": "33246446708",
+    "id": "33952778189",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246446708/job/99084637409",
-    "timestamp": "2026-08-29T10:06:38Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952778189/job/101270529023",
+    "timestamp": "2026-09-05T07:45:38Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -25,38 +25,38 @@
       {
         "name": "Test 1 - Check runBenchmark.sh script",
         "status": "passed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246446708/job/99084637409#step:7:1"
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952778189/job/101270529023#step:7:1"
       },
       {
         "name": "Test 2 - Check Java Dependency",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246446708/job/99084637409#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952778189/job/101270529023#step:8:1"
       },
       {
         "name": "Test 3 - Check Script Usage (Dry Run)",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246446708/job/99084637409#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952778189/job/101270529023#step:9:1"
       },
       {
         "name": "Test 4 - Architecture Verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246446708/job/99084637409#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952778189/job/101270529023#step:10:1"
       },
       {
         "name": "Test 5 - Functional Validation",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246446708/job/99084637409#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952778189/job/101270529023#step:11:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246446708/job/99084637409#step:12:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952778189/job/101270529023#step:12:1",
         "current_version": "REL6_0_RC2",
         "latest_version": "REL6_0_RC2",
         "next_installed_version": "REL6_0_RC2",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "skipped",
     "regression_decision": "no_newer_stable_available",
-    "production_refreshed_at": "2026-08-29T11:55:27.534500+00:00",
+    "production_refreshed_at": "2026-09-05T09:16:47.731634+00:00",
     "publish_state": "published"
   }
 }

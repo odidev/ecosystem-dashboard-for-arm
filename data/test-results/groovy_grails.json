@@ -5,10 +5,10 @@
     "version": "Groovy 4.0.30 / Grails 6.2.3"
   },
   "run": {
-    "id": "33246435783",
+    "id": "33952761701",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246435783/job/99084607816",
-    "timestamp": "2026-08-29T10:00:28Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952761701/job/101270486940",
+    "timestamp": "2026-09-05T07:38:25Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 38,
+    "duration_seconds": 45,
     "details": [
       {
         "name": "Test 1 - Check Groovy binary exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246435783/job/99084607816#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952761701/job/101270486940#step:6:1"
       },
       {
         "name": "Test 2 - Check Grails binary exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246435783/job/99084607816#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952761701/job/101270486940#step:7:1"
       },
       {
         "name": "Test 3 - Check Groovy version output",
         "status": "passed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246435783/job/99084607816#step:8:1"
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952761701/job/101270486940#step:8:1"
       },
       {
         "name": "Test 4 - Check Grails version output",
         "status": "passed",
-        "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246435783/job/99084607816#step:9:1"
+        "duration_seconds": 0,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952761701/job/101270486940#step:9:1"
       },
       {
         "name": "Test 5 - Functional validation",
         "status": "passed",
-        "duration_seconds": 2,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246435783/job/99084607816#step:10:1"
+        "duration_seconds": 3,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952761701/job/101270486940#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 35,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246435783/job/99084607816#step:11:1",
+        "duration_seconds": 41,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952761701/job/101270486940#step:11:1",
         "current_version": "Groovy 4.0.30 / Grails 6.2.3",
         "latest_version": "Groovy 5.0.0 / Grails 7.0.0",
         "next_installed_version": "Groovy 5.0.0 / Grails 7.0.0",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-08-29T11:55:27.588714+00:00",
+    "production_refreshed_at": "2026-09-05T09:16:47.774896+00:00",
     "publish_state": "published"
   }
 }

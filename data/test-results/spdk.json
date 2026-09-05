@@ -5,10 +5,10 @@
     "version": "v22.09"
   },
   "run": {
-    "id": "33246455627",
+    "id": "33952788034",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246455627/job/99084663182",
-    "timestamp": "2026-08-29T10:17:04Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952788034/job/101270557829",
+    "timestamp": "2026-09-05T08:02:24Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Check SPDK binary exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246455627/job/99084663182#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952788034/job/101270557829#step:7:1"
       },
       {
         "name": "Test 2 - Check source tag version",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246455627/job/99084663182#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952788034/job/101270557829#step:8:1"
       },
       {
         "name": "Test 3 - Check SPDK help output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246455627/job/99084663182#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952788034/job/101270557829#step:9:1"
       },
       {
         "name": "Test 4 - Architecture verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246455627/job/99084663182#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952788034/job/101270557829#step:10:1"
       },
       {
         "name": "Test 5 - Functional validation",
         "status": "passed",
         "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246455627/job/99084663182#step:12:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952788034/job/101270557829#step:12:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 120,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246455627/job/99084663182#step:13:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952788034/job/101270557829#step:13:1",
         "current_version": "v22.09",
         "latest_version": "v23.01",
         "next_installed_version": "v23.01",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-08-29T11:55:27.689598+00:00",
+    "production_refreshed_at": "2026-09-05T09:16:47.854053+00:00",
     "publish_state": "published"
   }
 }

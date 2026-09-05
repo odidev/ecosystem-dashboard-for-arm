@@ -5,10 +5,10 @@
     "version": "1.40.0"
   },
   "run": {
-    "id": "33246487466",
+    "id": "33952828471",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246487466/job/99084744081",
-    "timestamp": "2026-08-29T10:41:47Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952828471/job/101270665411",
+    "timestamp": "2026-09-05T08:23:30Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 22,
+    "duration_seconds": 21,
     "details": [
       {
         "name": "Test 1 - Validate baseline image manifest and pull",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246487466/job/99084744081#step:5:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952828471/job/101270665411#step:5:1"
       },
       {
         "name": "Test 2 - Inspect pulled baseline image",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246487466/job/99084744081#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952828471/job/101270665411#step:6:1"
       },
       {
         "name": "Test 3 - Check Buildah version",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246487466/job/99084744081#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952828471/job/101270665411#step:7:1"
       },
       {
         "name": "Test 4 - Check Buildah help output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246487466/job/99084744081#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952828471/job/101270665411#step:8:1"
       },
       {
         "name": "Test 5 - Run bounded Buildah functional smoke",
         "status": "passed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246487466/job/99084744081#step:9:1"
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952828471/job/101270665411#step:9:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246487466/job/99084744081#step:10:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952828471/job/101270665411#step:10:1",
         "current_version": "1.40.0",
         "latest_version": "latest",
         "next_installed_version": "latest",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-08-29T11:55:27.537819+00:00",
+    "production_refreshed_at": "2026-09-05T09:16:47.734342+00:00",
     "publish_state": "published"
   }
 }

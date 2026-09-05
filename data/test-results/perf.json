@@ -5,10 +5,10 @@
     "version": "6.2.16"
   },
   "run": {
-    "id": "33246443743",
+    "id": "33952774389",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246443743/job/99084631679",
-    "timestamp": "2026-08-29T10:02:08Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952774389/job/101270519243",
+    "timestamp": "2026-09-05T07:40:21Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,43 +26,43 @@
         "name": "Test 1 - Check perf binary exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246443743/job/99084631679#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952774389/job/101270519243#step:6:1"
       },
       {
         "name": "Test 2 - Check version output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246443743/job/99084631679#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952774389/job/101270519243#step:7:1"
       },
       {
         "name": "Test 3 - Check help output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246443743/job/99084631679#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952774389/job/101270519243#step:8:1"
       },
       {
         "name": "Test 4 - Architecture verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246443743/job/99084631679#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952774389/job/101270519243#step:9:1"
       },
       {
         "name": "Test 5 - Functional validation",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246443743/job/99084631679#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952774389/job/101270519243#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 48,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246443743/job/99084631679#step:11:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952774389/job/101270519243#step:11:1",
         "current_version": "6.2.16",
-        "latest_version": "7.2.2",
-        "next_installed_version": "7.2.2",
+        "latest_version": "7.2.3",
+        "next_installed_version": "7.2.3",
         "decision": "next_install_validated",
         "regression_result": "Next version installed successfully on Arm64",
-        "comparison": "Current pinned perf version 6.2.16 passed smoke tests in this run. Regression validation built candidate version 7.2.2 on Arm64, and the candidate perf binary reported version 7.2.2 while help and event-list validation succeeded."
+        "comparison": "Current pinned perf version 6.2.16 passed smoke tests in this run. Regression validation built candidate version 7.2.3 on Arm64, and the candidate perf binary reported version 7.2.3 while help and event-list validation succeeded."
       }
     ]
   },
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-08-29T11:55:27.661884+00:00",
+    "production_refreshed_at": "2026-09-05T09:16:47.832695+00:00",
     "publish_state": "published"
   }
 }

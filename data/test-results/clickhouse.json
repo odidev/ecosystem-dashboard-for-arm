@@ -2,14 +2,14 @@
   "schema_version": "2.0",
   "package": {
     "name": "Clickhouse",
-    "version": "unknown"
+    "version": "25.1.7.20"
   },
   "run": {
-    "id": "33246433217",
+    "id": "33952757361",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246433217/job/99084600849",
-    "timestamp": "2026-08-29T09:52:20Z",
-    "status": "failure",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952757361/job/101270476563",
+    "timestamp": "2026-09-05T07:31:14Z",
+    "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
       "arch": "arm64"
@@ -17,49 +17,52 @@
     "job_name": "test-clickhouse / test-clickhouse"
   },
   "tests": {
-    "passed": 0,
-    "failed": 1,
-    "skipped": 5,
-    "duration_seconds": 0,
+    "passed": 6,
+    "failed": 0,
+    "skipped": 0,
+    "duration_seconds": 4,
     "details": [
       {
         "name": "Test 1 - Check binary",
-        "status": "skipped",
+        "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246433217/job/99084600849#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952757361/job/101270476563#step:7:1"
       },
       {
         "name": "Test 2 - Run help",
-        "status": "skipped",
+        "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246433217/job/99084600849#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952757361/job/101270476563#step:8:1"
       },
       {
         "name": "Test 3 - Run local query",
-        "status": "skipped",
+        "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246433217/job/99084600849#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952757361/job/101270476563#step:9:1"
       },
       {
         "name": "Test 4 - Simple calculation",
-        "status": "skipped",
+        "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246433217/job/99084600849#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952757361/job/101270476563#step:10:1"
       },
       {
         "name": "Test 5 - Architecture verification",
-        "status": "skipped",
+        "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246433217/job/99084600849#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952757361/job/101270476563#step:11:1"
       },
       {
         "name": "Test 6 - Regression Validation",
-        "status": "failed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246433217/job/99084600849#step:12:1",
-        "decision": "result_not_emitted",
-        "regression_result": "Regression validation step failed before emitting terminal outputs",
-        "comparison": "The package job failed in Actions, but the workflow did not emit a terminal regression decision before exiting."
+        "status": "passed",
+        "duration_seconds": 4,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952757361/job/101270476563#step:12:1",
+        "current_version": "25.1.7.20",
+        "latest_version": "25.1.8.25",
+        "next_installed_version": "25.1.8.25",
+        "decision": "next_install_validated",
+        "regression_result": "Next version installed successfully on Arm64",
+        "comparison": "Current pinned Clickhouse release 25.1.7.20 passed smoke tests in this run. Regression validation downloaded the next stable Arm64 release 25.1.8.25, verified the release checksum, and confirmed both the client banner and clickhouse-local version query report 25.1.8.25 on Arm64."
       }
     ]
   },
@@ -67,16 +70,16 @@
     "contract_version": "2.0",
     "package_slug": "clickhouse",
     "dashboard_link": "/linux/opensource_packages/clickhouse",
-    "badge_status": "failing",
-    "core_failed": 5,
+    "badge_status": "passing",
+    "core_failed": 0,
     "batch_title": "Batch 2",
     "job_url_resolution_status": "central_exact",
-    "regression_applicability": "not_configured",
-    "regression_reason": "not_configured",
-    "regression_note": "Regression validation is not configured for this workflow.",
-    "regression_status": "failed",
-    "regression_decision": "result_not_emitted",
-    "production_refreshed_at": "2026-08-29T11:55:27.546436+00:00",
+    "regression_applicability": "applicable",
+    "regression_reason": "",
+    "regression_note": "",
+    "regression_status": "passed",
+    "regression_decision": "next_install_validated",
+    "production_refreshed_at": "2026-09-05T09:16:47.741070+00:00",
     "publish_state": "published"
   }
 }

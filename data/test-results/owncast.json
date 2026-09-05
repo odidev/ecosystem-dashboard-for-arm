@@ -5,10 +5,10 @@
     "version": "0.0.8"
   },
   "run": {
-    "id": "33246484269",
+    "id": "33952824884",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246484269/job/99084738718",
-    "timestamp": "2026-08-29T10:40:52Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952824884/job/101270657616",
+    "timestamp": "2026-09-05T08:17:52Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,46 +20,46 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 48,
+    "duration_seconds": 45,
     "details": [
       {
         "name": "Test 1 - Check package-specific baseline markers",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246484269/job/99084738718#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952824884/job/101270657616#step:8:1"
       },
       {
         "name": "Test 2 - Check published package metadata",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246484269/job/99084738718#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952824884/job/101270657616#step:9:1"
       },
       {
         "name": "Test 3 - Check package-specific docs and manifests",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246484269/job/99084738718#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952824884/job/101270657616#step:10:1"
       },
       {
         "name": "Test 4 - Verify Arm64 runner and lane assumptions",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246484269/job/99084738718#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952824884/job/101270657616#step:11:1"
       },
       {
         "name": "Test 5 - Run bounded package-specific smoke",
         "status": "passed",
-        "duration_seconds": 46,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246484269/job/99084738718#step:12:1"
+        "duration_seconds": 41,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952824884/job/101270657616#step:12:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 2,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33246484269/job/99084738718#step:13:1",
+        "duration_seconds": 4,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952824884/job/101270657616#step:13:1",
         "current_version": "0.0.8",
-        "latest_version": "0.2.5",
-        "next_installed_version": "0.2.5",
+        "latest_version": "0.3.0",
+        "next_installed_version": "0.3.0",
         "decision": "limited_cpu_smoke_validated",
         "regression_result": "Arm preflight proof passed on Arm64",
         "comparison": "A bounded Arm64 CPU-side source probe validated the next Owncast candidate checkout and module identity. This does not build or run the streaming server."
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "limited_cpu_smoke_validated",
-    "production_refreshed_at": "2026-08-29T11:55:27.659466+00:00",
+    "production_refreshed_at": "2026-09-05T09:16:47.830689+00:00",
     "publish_state": "published"
   }
 }
