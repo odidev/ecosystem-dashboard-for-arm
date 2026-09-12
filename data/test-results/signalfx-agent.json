@@ -5,10 +5,10 @@
     "version": "unknown"
   },
   "run": {
-    "id": "33952817454",
+    "id": "34681629300",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952817454/job/101270636140",
-    "timestamp": "2026-09-05T08:14:40Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681629300/job/103521198929",
+    "timestamp": "2026-09-12T08:40:48Z",
     "status": "failure",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Binary Existence",
         "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952817454/job/101270636140#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681629300/job/103521198929#step:7:1"
       },
       {
         "name": "Test 2 - Version Check",
         "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952817454/job/101270636140#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681629300/job/103521198929#step:8:1"
       },
       {
         "name": "Test 3 - Help Output Validation",
         "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952817454/job/101270636140#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681629300/job/103521198929#step:9:1"
       },
       {
         "name": "Test 4 - Architecture Verification",
         "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952817454/job/101270636140#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681629300/job/103521198929#step:10:1"
       },
       {
         "name": "Test 5 - Functional Validation",
         "status": "skipped",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952817454/job/101270636140#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681629300/job/103521198929#step:11:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "failed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952817454/job/101270636140#step:12:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681629300/job/103521198929#step:12:1",
         "decision": "result_not_emitted",
         "regression_result": "Regression validation step failed before emitting terminal outputs",
         "comparison": "The package job failed in Actions, but the workflow did not emit a terminal regression decision before exiting."
@@ -76,7 +76,7 @@
     "regression_note": "Regression validation is not configured for this workflow.",
     "regression_status": "failed",
     "regression_decision": "result_not_emitted",
-    "production_refreshed_at": "2026-09-05T09:16:47.851117+00:00",
+    "production_refreshed_at": "2026-09-12T09:42:18.847980+00:00",
     "publish_state": "published"
   }
 }

@@ -5,11 +5,11 @@
     "version": "11"
   },
   "run": {
-    "id": "33952770346",
+    "id": "34681589387",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952770346/job/101270509810",
-    "timestamp": "2026-09-05T07:47:13Z",
-    "status": "success",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681589387/job/103521090092",
+    "timestamp": "2026-09-12T07:53:17Z",
+    "status": "failure",
     "runner": {
       "os": "ubuntu-24.04",
       "arch": "arm64"
@@ -17,46 +17,46 @@
     "job_name": "test-debian_elts / test-debian_elts"
   },
   "tests": {
-    "passed": 6,
-    "failed": 0,
+    "passed": 1,
+    "failed": 5,
     "skipped": 0,
-    "duration_seconds": 11,
+    "duration_seconds": 9,
     "details": [
       {
         "name": "Test 1 - Check image architecture",
-        "status": "passed",
+        "status": "failed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952770346/job/101270509810#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681589387/job/103521090092#step:6:1"
       },
       {
         "name": "Test 2 - Check OS release file",
-        "status": "passed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952770346/job/101270509810#step:7:1"
+        "status": "failed",
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681589387/job/103521090092#step:7:1"
       },
       {
         "name": "Test 3 - Install package with apt",
-        "status": "passed",
-        "duration_seconds": 4,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952770346/job/101270509810#step:8:1"
+        "status": "failed",
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681589387/job/103521090092#step:8:1"
       },
       {
         "name": "Test 4 - Check architecture inside container",
-        "status": "passed",
+        "status": "failed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952770346/job/101270509810#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681589387/job/103521090092#step:9:1"
       },
       {
         "name": "Test 5 - Simple command execution",
-        "status": "passed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952770346/job/101270509810#step:10:1"
+        "status": "failed",
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681589387/job/103521090092#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 7,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/33952770346/job/101270509810#step:11:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681589387/job/103521090092#step:11:1",
         "current_version": "11",
         "latest_version": "12.13",
         "next_installed_version": "12",
@@ -70,8 +70,8 @@
     "contract_version": "2.0",
     "package_slug": "debian_elts",
     "dashboard_link": "/linux/opensource_packages/debian_elts",
-    "badge_status": "passing",
-    "core_failed": 0,
+    "badge_status": "failing",
+    "core_failed": 5,
     "batch_title": "Batch 5",
     "job_url_resolution_status": "central_exact",
     "regression_applicability": "applicable",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-09-05T09:16:47.750001+00:00",
+    "production_refreshed_at": "2026-09-12T09:42:18.718698+00:00",
     "publish_state": "published"
   }
 }
