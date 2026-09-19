@@ -5,10 +5,10 @@
     "version": "2.5.6"
   },
   "run": {
-    "id": "34681629300",
+    "id": "35430617775",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681629300/job/103521199460",
-    "timestamp": "2026-09-12T08:30:17Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430617775/job/105864397094",
+    "timestamp": "2026-09-19T08:37:58Z",
     "status": "failure",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 0,
     "failed": 6,
     "skipped": 0,
-    "duration_seconds": 16,
+    "duration_seconds": 22,
     "details": [
       {
         "name": "Test 1 - Check standalone compose asset",
         "status": "failed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681629300/job/103521199460#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430617775/job/105864397094#step:7:1"
       },
       {
         "name": "Test 2 - Validate standalone compose configuration",
         "status": "failed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681629300/job/103521199460#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430617775/job/105864397094#step:8:1"
       },
       {
         "name": "Test 3 - Pull baseline standalone image and verify architecture",
         "status": "failed",
-        "duration_seconds": 16,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681629300/job/103521199460#step:9:1"
+        "duration_seconds": 22,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430617775/job/105864397094#step:9:1"
       },
       {
         "name": "Test 4 - Start baseline standalone stack and wait for health",
         "status": "failed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681629300/job/103521199460#step:10:1"
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430617775/job/105864397094#step:10:1"
       },
       {
         "name": "Test 5 - Validate running standalone container and clean up baseline",
         "status": "failed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681629300/job/103521199460#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430617775/job/105864397094#step:11:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "failed",
         "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681629300/job/103521199460#step:12:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430617775/job/105864397094#step:12:1"
       }
     ]
   },
@@ -72,7 +72,7 @@
     "regression_reason": "result_not_emitted",
     "regression_note": "The Test 6 step failed before the workflow emitted a terminal regression decision.",
     "regression_status": "failed",
-    "production_refreshed_at": "2026-09-12T09:42:18.794503+00:00",
+    "production_refreshed_at": "2026-09-19T09:43:36.524938+00:00",
     "publish_state": "published"
   }
 }

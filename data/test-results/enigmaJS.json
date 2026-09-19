@@ -5,10 +5,10 @@
     "version": "1.0.0"
   },
   "run": {
-    "id": "34681597713",
+    "id": "35430585639",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681597713/job/103521113466",
-    "timestamp": "2026-09-12T08:04:07Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430585639/job/105864310252",
+    "timestamp": "2026-09-19T08:04:56Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Check node_modules existence",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681597713/job/103521113466#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430585639/job/105864310252#step:7:1"
       },
       {
         "name": "Test 2 - Check package.json dependency",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681597713/job/103521113466#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430585639/job/105864310252#step:8:1"
       },
       {
         "name": "Test 3 - Check ws dependency",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681597713/job/103521113466#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430585639/job/105864310252#step:9:1"
       },
       {
         "name": "Test 4 - Require enigma.js in Node script",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681597713/job/103521113466#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430585639/job/105864310252#step:10:1"
       },
       {
         "name": "Test 5 - Check Schema instantiation (basic usage)",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681597713/job/103521113466#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430585639/job/105864310252#step:11:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 2,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681597713/job/103521113466#step:12:1",
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430585639/job/105864310252#step:12:1",
         "current_version": "1.0.0",
         "latest_version": "1.0.1",
         "next_installed_version": "1.0.1",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-09-12T09:42:18.731116+00:00",
+    "production_refreshed_at": "2026-09-19T09:43:36.472021+00:00",
     "publish_state": "published"
   }
 }

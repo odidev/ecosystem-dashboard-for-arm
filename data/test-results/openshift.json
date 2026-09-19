@@ -5,10 +5,10 @@
     "version": "4.14.0"
   },
   "run": {
-    "id": "34681624536",
+    "id": "35430610104",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681624536/job/103521184969",
-    "timestamp": "2026-09-12T08:23:41Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430610104/job/105864377371",
+    "timestamp": "2026-09-19T08:39:24Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,43 +26,43 @@
         "name": "Test 1 - Check oc binary",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681624536/job/103521184969#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430610104/job/105864377371#step:6:1"
       },
       {
         "name": "Test 2 - Check kubectl binary",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681624536/job/103521184969#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430610104/job/105864377371#step:7:1"
       },
       {
         "name": "Test 3 - Check client version output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681624536/job/103521184969#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430610104/job/105864377371#step:8:1"
       },
       {
         "name": "Test 4 - Architecture Verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681624536/job/103521184969#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430610104/job/105864377371#step:9:1"
       },
       {
         "name": "Test 5 - Functional Validation",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681624536/job/103521184969#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430610104/job/105864377371#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 2,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681624536/job/103521184969#step:11:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430610104/job/105864377371#step:11:1",
         "current_version": "4.14.0",
-        "latest_version": "4.22.12",
-        "next_installed_version": "4.22.12",
+        "latest_version": "4.22.13",
+        "next_installed_version": "4.22.13",
         "decision": "next_install_validated",
         "regression_result": "Next version installed successfully on Arm64",
-        "comparison": "Current pinned OpenShift Client version 4.14.0 passed smoke tests in this run. Regression validation installed candidate version 4.22.12 on Arm64, and the extracted client binaries reported version 4.22.12 while passing help, completion, and kubectl client checks."
+        "comparison": "Current pinned OpenShift Client version 4.14.0 passed smoke tests in this run. Regression validation installed candidate version 4.22.13 on Arm64, and the extracted client binaries reported version 4.22.13 while passing help, completion, and kubectl client checks."
       }
     ]
   },
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-09-12T09:42:18.817979+00:00",
+    "production_refreshed_at": "2026-09-19T09:43:36.545574+00:00",
     "publish_state": "published"
   }
 }

@@ -5,10 +5,10 @@
     "version": "8.9.1"
   },
   "run": {
-    "id": "34681576925",
+    "id": "35430564151",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681576925/job/103521055930",
-    "timestamp": "2026-09-12T07:47:40Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430564151/job/105864252288",
+    "timestamp": "2026-09-19T07:59:11Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 0,
+    "duration_seconds": 1,
     "details": [
       {
         "name": "Test 1 - Check RocksDB library is installed",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681576925/job/103521055930#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430564151/job/105864252288#step:7:1"
       },
       {
         "name": "Test 2 - Check RocksDB header files exist",
         "status": "passed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681576925/job/103521055930#step:8:1"
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430564151/job/105864252288#step:8:1"
       },
       {
         "name": "Test 3 - Check RocksDB shared library exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681576925/job/103521055930#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430564151/job/105864252288#step:9:1"
       },
       {
         "name": "Test 4 - Check ldb tool (RocksDB command-line tool)",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681576925/job/103521055930#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430564151/job/105864252288#step:10:1"
       },
       {
         "name": "Test 5 - Create and query a simple RocksDB database",
         "status": "passed",
-        "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681576925/job/103521055930#step:11:1"
+        "duration_seconds": 0,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430564151/job/105864252288#step:11:1"
       },
       {
         "name": "Regression applicability - package manager installed",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681576925/job/103521055930#step:12:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430564151/job/105864252288#step:12:1"
       }
     ]
   },
@@ -71,7 +71,7 @@
     "regression_applicability": "not_applicable",
     "regression_reason": "package_manager_installed",
     "regression_note": "Regression validation not applicable: tested package installed via package manager in Tests 1-5.",
-    "production_refreshed_at": "2026-09-12T09:42:18.842072+00:00",
+    "production_refreshed_at": "2026-09-19T09:43:36.566938+00:00",
     "publish_state": "published"
   }
 }

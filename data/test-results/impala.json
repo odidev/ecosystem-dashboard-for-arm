@@ -5,11 +5,11 @@
     "version": "4.5.0"
   },
   "run": {
-    "id": "34681592159",
+    "id": "35430579455",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681592159/job/103521098994",
-    "timestamp": "2026-09-12T08:06:12Z",
-    "status": "success",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430579455/job/105864295459",
+    "timestamp": "2026-09-19T08:02:04Z",
+    "status": "failure",
     "runner": {
       "os": "ubuntu-24.04",
       "arch": "arm64"
@@ -18,51 +18,51 @@
   },
   "tests": {
     "passed": 5,
-    "failed": 0,
-    "skipped": 1,
+    "failed": 1,
+    "skipped": 0,
     "duration_seconds": 0,
     "details": [
       {
         "name": "Test 1 - Check Impala server binaries exist",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681592159/job/103521098994#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430579455/job/105864295459#step:6:1"
       },
       {
         "name": "Test 2 - Check impala-shell version output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681592159/job/103521098994#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430579455/job/105864295459#step:7:1"
       },
       {
         "name": "Test 3 - Check impala-shell help output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681592159/job/103521098994#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430579455/job/105864295459#step:8:1"
       },
       {
         "name": "Test 4 - Architecture verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681592159/job/103521098994#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430579455/job/105864295459#step:9:1"
       },
       {
         "name": "Test 5 - Check impalad version output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681592159/job/103521098994#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430579455/job/105864295459#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
-        "status": "skipped",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681592159/job/103521098994#step:11:1",
+        "status": "failed",
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430579455/job/105864295459#step:11:1",
         "current_version": "4.5.0",
-        "latest_version": "4.5.0",
+        "latest_version": "4.5.2",
         "next_installed_version": "not_installed",
-        "decision": "no_newer_stable_available",
-        "regression_result": "No newer stable version available for Arm64 regression validation",
-        "comparison": "Current pinned Impala version 4.5.0 passed smoke tests in this run and already matches the newest stable Arm64 package release in the tested lane."
+        "decision": "result_not_emitted",
+        "regression_result": "Regression validation step failed before emitting terminal outputs",
+        "comparison": "The Test 6 step failed in the job, but the workflow did not emit a terminal regression decision before exiting."
       }
     ]
   },
@@ -70,16 +70,16 @@
     "contract_version": "2.0",
     "package_slug": "impala",
     "dashboard_link": "/linux/opensource_packages/impala",
-    "badge_status": "passing",
+    "badge_status": "failing",
     "core_failed": 0,
     "batch_title": "Batch 6",
     "job_url_resolution_status": "central_exact",
     "regression_applicability": "applicable",
-    "regression_reason": "",
-    "regression_note": "",
-    "regression_status": "skipped",
-    "regression_decision": "no_newer_stable_available",
-    "production_refreshed_at": "2026-09-12T09:42:18.759553+00:00",
+    "regression_reason": "result_not_emitted",
+    "regression_note": "The Test 6 step failed before the workflow emitted a terminal regression decision.",
+    "regression_status": "failed",
+    "regression_decision": "result_not_emitted",
+    "production_refreshed_at": "2026-09-19T09:43:36.495874+00:00",
     "publish_state": "published"
   }
 }

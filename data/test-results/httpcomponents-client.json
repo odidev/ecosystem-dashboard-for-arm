@@ -5,10 +5,10 @@
     "version": "5.4"
   },
   "run": {
-    "id": "34681580405",
+    "id": "35430567503",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681580405/job/103521064675",
-    "timestamp": "2026-09-12T07:51:26Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430567503/job/105864261169",
+    "timestamp": "2026-09-19T08:02:13Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Check client jars exist",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681580405/job/103521064675#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430567503/job/105864261169#step:8:1"
       },
       {
         "name": "Test 2 - Compile Java client",
         "status": "passed",
         "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681580405/job/103521064675#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430567503/job/105864261169#step:9:1"
       },
       {
         "name": "Test 3 - Run loopback HTTP request",
         "status": "passed",
         "duration_seconds": 2,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681580405/job/103521064675#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430567503/job/105864261169#step:10:1"
       },
       {
         "name": "Test 4 - Check expected client classes",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681580405/job/103521064675#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430567503/job/105864261169#step:11:1"
       },
       {
         "name": "Test 5 - Check dependency jars and Arm64 runner",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681580405/job/103521064675#step:12:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430567503/job/105864261169#step:12:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 3,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681580405/job/103521064675#step:13:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430567503/job/105864261169#step:13:1",
         "current_version": "5.4",
         "latest_version": "5.6",
         "next_installed_version": "5.6",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-09-12T09:42:18.757766+00:00",
+    "production_refreshed_at": "2026-09-19T09:43:36.494374+00:00",
     "publish_state": "published"
   }
 }

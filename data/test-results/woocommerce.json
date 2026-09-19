@@ -5,10 +5,10 @@
     "version": "9.5.1"
   },
   "run": {
-    "id": "34681622015",
+    "id": "35430606891",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681622015/job/103521177378",
-    "timestamp": "2026-09-12T08:28:03Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430606891/job/105864370136",
+    "timestamp": "2026-09-19T08:31:24Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 8,
+    "duration_seconds": 7,
     "details": [
       {
         "name": "Test 1 - Plugin File Existence",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681622015/job/103521177378#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430606891/job/105864370136#step:6:1"
       },
       {
         "name": "Test 2 - Exact Version Check",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681622015/job/103521177378#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430606891/job/105864370136#step:7:1"
       },
       {
         "name": "Test 3 - PHP Lint And Plugin Metadata Validation",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681622015/job/103521177378#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430606891/job/105864370136#step:8:1"
       },
       {
         "name": "Test 4 - Architecture Verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681622015/job/103521177378#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430606891/job/105864370136#step:9:1"
       },
       {
         "name": "Test 5 - WordPress And Plugin Smoke",
         "status": "passed",
         "duration_seconds": 3,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681622015/job/103521177378#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430606891/job/105864370136#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 5,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/34681622015/job/103521177378#step:11:1",
+        "duration_seconds": 4,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430606891/job/105864370136#step:11:1",
         "current_version": "9.5.1",
         "latest_version": "9.5.2",
         "next_installed_version": "9.5.2",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-09-12T09:42:18.877765+00:00",
+    "production_refreshed_at": "2026-09-19T09:43:36.597088+00:00",
     "publish_state": "published"
   }
 }
