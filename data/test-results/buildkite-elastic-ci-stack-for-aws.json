@@ -5,10 +5,10 @@
     "version": "v6.30.0"
   },
   "run": {
-    "id": "35430579455",
+    "id": "36229732267",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430579455/job/105864295174",
-    "timestamp": "2026-09-19T08:00:27Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229732267/job/108370503543",
+    "timestamp": "2026-09-26T08:44:39Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -25,38 +25,38 @@
       {
         "name": "Test 1 - Check repository exists",
         "status": "passed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430579455/job/105864295174#step:6:1"
+        "duration_seconds": 1,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229732267/job/108370503543#step:6:1"
       },
       {
         "name": "Test 2 - Check for packer templates",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430579455/job/105864295174#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229732267/job/108370503543#step:7:1"
       },
       {
         "name": "Test 3 - Parse CloudFormation templates",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430579455/job/105864295174#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229732267/job/108370503543#step:8:1"
       },
       {
         "name": "Test 4 - Architecture verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430579455/job/105864295174#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229732267/job/108370503543#step:9:1"
       },
       {
         "name": "Test 5 - Validate Arm64 Stack Support",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430579455/job/105864295174#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229732267/job/108370503543#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430579455/job/105864295174#step:11:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229732267/job/108370503543#step:11:1",
         "current_version": "v6.30.0",
         "latest_version": "v6.31.0",
         "next_installed_version": "v6.31.0",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-09-19T09:43:36.446030+00:00",
+    "production_refreshed_at": "2026-09-26T10:29:35.982577+00:00",
     "publish_state": "published"
   }
 }

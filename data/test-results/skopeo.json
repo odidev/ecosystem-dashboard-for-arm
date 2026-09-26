@@ -5,10 +5,10 @@
     "version": "1.3.0"
   },
   "run": {
-    "id": "35430628503",
+    "id": "36229791958",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430628503/job/105864426429",
-    "timestamp": "2026-09-19T08:50:25Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229791958/job/108370664582",
+    "timestamp": "2026-09-26T09:17:01Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 17,
+    "duration_seconds": 22,
     "details": [
       {
         "name": "Test 1 - Validate baseline image manifest and pull",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430628503/job/105864426429#step:5:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229791958/job/108370664582#step:5:1"
       },
       {
         "name": "Test 2 - Inspect pulled baseline image",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430628503/job/105864426429#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229791958/job/108370664582#step:6:1"
       },
       {
         "name": "Test 3 - Check Skopeo version",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430628503/job/105864426429#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229791958/job/108370664582#step:7:1"
       },
       {
         "name": "Test 4 - Check Skopeo help output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430628503/job/105864426429#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229791958/job/108370664582#step:8:1"
       },
       {
         "name": "Test 5 - Run daemonless Skopeo inspect smoke",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430628503/job/105864426429#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229791958/job/108370664582#step:9:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/35430628503/job/105864426429#step:10:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229791958/job/108370664582#step:10:1",
         "current_version": "1.3.0",
         "latest_version": "latest",
         "next_installed_version": "latest",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-09-19T09:43:36.572407+00:00",
+    "production_refreshed_at": "2026-09-26T10:29:36.133977+00:00",
     "publish_state": "published"
   }
 }
