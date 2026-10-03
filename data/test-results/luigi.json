@@ -5,10 +5,10 @@
     "version": "1.0.0"
   },
   "run": {
-    "id": "36229791958",
+    "id": "37111540293",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229791958/job/108370664720",
-    "timestamp": "2026-09-26T09:23:51Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111540293/job/111170265606",
+    "timestamp": "2026-10-03T09:49:20Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Download Luigi baseline source",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229791958/job/108370664720#step:5:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111540293/job/111170265606#step:5:1"
       },
       {
         "name": "Test 2 - Verify expected source layout",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229791958/job/108370664720#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111540293/job/111170265606#step:6:1"
       },
       {
         "name": "Test 3 - Check core package metadata",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229791958/job/108370664720#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111540293/job/111170265606#step:7:1"
       },
       {
         "name": "Test 4 - Architecture Verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229791958/job/108370664720#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111540293/job/111170265606#step:8:1"
       },
       {
         "name": "Test 5 - Search source/docs functional markers",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229791958/job/108370664720#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111540293/job/111170265606#step:9:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229791958/job/108370664720#step:10:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111540293/job/111170265606#step:10:1",
         "current_version": "1.0.0",
         "latest_version": "v2.29.0",
         "next_installed_version": "v2.29.0",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-09-26T10:29:36.070653+00:00",
+    "production_refreshed_at": "2026-10-03T10:50:20.772840+00:00",
     "publish_state": "published"
   }
 }

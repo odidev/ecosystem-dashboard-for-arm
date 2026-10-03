@@ -5,10 +5,10 @@
     "version": "v3.2.1.GA"
   },
   "run": {
-    "id": "36229779922",
+    "id": "37111528135",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229779922/job/108370630267",
-    "timestamp": "2026-09-26T09:13:13Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111528135/job/111170230957",
+    "timestamp": "2026-10-03T09:42:18Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -26,37 +26,37 @@
         "name": "Test 1 - Check release RPM download",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229779922/job/108370630267#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111528135/job/111170230957#step:6:1"
       },
       {
         "name": "Test 2 - Check release tag exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229779922/job/108370630267#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111528135/job/111170230957#step:7:1"
       },
       {
         "name": "Test 3 - Check OpenHPC repo file",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229779922/job/108370630267#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111528135/job/111170230957#step:8:1"
       },
       {
         "name": "Test 4 - Architecture Verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229779922/job/108370630267#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111528135/job/111170230957#step:9:1"
       },
       {
         "name": "Test 5 - Validate Arm repo metadata",
         "status": "passed",
         "duration_seconds": 2,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229779922/job/108370630267#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111528135/job/111170230957#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 2,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229779922/job/108370630267#step:11:1",
+        "duration_seconds": 3,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111528135/job/111170230957#step:11:1",
         "current_version": "v3.2.1.GA",
         "latest_version": "v3.3.GA",
         "next_installed_version": "v3.3.GA",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-09-26T10:29:36.095273+00:00",
+    "production_refreshed_at": "2026-10-03T10:50:20.791677+00:00",
     "publish_state": "published"
   }
 }

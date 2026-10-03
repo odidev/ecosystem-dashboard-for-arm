@@ -5,10 +5,10 @@
     "version": "24.0.3"
   },
   "run": {
-    "id": "36229758418",
+    "id": "37111506770",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229758418/job/108370570889",
-    "timestamp": "2026-09-26T09:04:25Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111506770/job/111170172887",
+    "timestamp": "2026-10-03T09:33:07Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,49 +20,49 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 2,
+    "duration_seconds": 4,
     "details": [
       {
         "name": "Test 1 - Check docker and dockerd binaries exist",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229758418/job/108370570889#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111506770/job/111170172887#step:6:1"
       },
       {
         "name": "Test 2 - Check docker client version output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229758418/job/108370570889#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111506770/job/111170172887#step:7:1"
       },
       {
         "name": "Test 3 - Check dockerd version output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229758418/job/108370570889#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111506770/job/111170172887#step:8:1"
       },
       {
         "name": "Test 4 - Check docker help output",
         "status": "passed",
-        "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229758418/job/108370570889#step:9:1"
+        "duration_seconds": 2,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111506770/job/111170172887#step:9:1"
       },
       {
         "name": "Test 5 - Verify Arm64 binaries",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229758418/job/108370570889#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111506770/job/111170172887#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
         "duration_seconds": 2,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229758418/job/108370570889#step:11:1",
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111506770/job/111170172887#step:11:1",
         "current_version": "24.0.3",
-        "latest_version": "29.8.1",
-        "next_installed_version": "29.8.1",
+        "latest_version": "29.8.2",
+        "next_installed_version": "29.8.2",
         "decision": "next_install_validated",
         "regression_result": "Next version installed successfully on Arm64",
-        "comparison": "Current pinned Docker CE version 24.0.3 passed smoke tests in this run. Regression validation downloaded the next official Arm64 static release 29.8.1, and both the docker client and dockerd binaries reported version 29.8.1 on Arm64."
+        "comparison": "Current pinned Docker CE version 24.0.3 passed smoke tests in this run. Regression validation downloaded the next official Arm64 static release 29.8.2, and both the docker client and dockerd binaries reported version 29.8.2 on Arm64."
       }
     ]
   },
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-09-26T10:29:36.004195+00:00",
+    "production_refreshed_at": "2026-10-03T10:50:20.722351+00:00",
     "publish_state": "published"
   }
 }

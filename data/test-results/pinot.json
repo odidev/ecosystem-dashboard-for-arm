@@ -5,10 +5,10 @@
     "version": "1.2.0"
   },
   "run": {
-    "id": "36229717169",
+    "id": "37111459170",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229717169/job/108370455300",
-    "timestamp": "2026-09-26T08:27:31Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111459170/job/111170037134",
+    "timestamp": "2026-10-03T09:02:15Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 524,
+    "duration_seconds": 130,
     "details": [
       {
         "name": "Test 1 - Check Pinot admin launcher exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229717169/job/108370455300#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111459170/job/111170037134#step:11:1"
       },
       {
         "name": "Test 2 - Check exact release version",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229717169/job/108370455300#step:12:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111459170/job/111170037134#step:12:1"
       },
       {
         "name": "Test 3 - Check Pinot quickstart admin path",
         "status": "passed",
-        "duration_seconds": 4,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229717169/job/108370455300#step:13:1"
+        "duration_seconds": 3,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111459170/job/111170037134#step:13:1"
       },
       {
         "name": "Test 4 - Architecture Verification",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229717169/job/108370455300#step:14:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111459170/job/111170037134#step:14:1"
       },
       {
         "name": "Test 5 - Functional validation",
         "status": "passed",
         "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229717169/job/108370455300#step:15:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111459170/job/111170037134#step:15:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 520,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/36229717169/job/108370455300#step:16:1",
+        "duration_seconds": 126,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/37111459170/job/111170037134#step:16:1",
         "current_version": "1.2.0",
         "latest_version": "1.3.0",
         "next_installed_version": "1.3.0",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-09-26T10:29:36.111009+00:00",
+    "production_refreshed_at": "2026-10-03T10:50:20.804039+00:00",
     "publish_state": "published"
   }
 }
