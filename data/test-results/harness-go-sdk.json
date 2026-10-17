@@ -2,13 +2,13 @@
   "schema_version": "2.0",
   "package": {
     "name": "Harness Go SDK",
-    "version": "v0.8.35"
+    "version": "v0.8.37"
   },
   "run": {
-    "id": "38041899788",
+    "id": "39014284707",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/38041899788/job/114183656570",
-    "timestamp": "2026-10-10T09:42:47Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/39014284707/job/117343056087",
+    "timestamp": "2026-10-17T07:41:46Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 3,
+    "duration_seconds": 4,
     "details": [
       {
         "name": "Test 1 - Check Go installation",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/38041899788/job/114183656570#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/39014284707/job/117343056087#step:6:1"
       },
       {
         "name": "Test 2 - Check SDK import",
         "status": "passed",
-        "duration_seconds": 3,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/38041899788/job/114183656570#step:7:1"
+        "duration_seconds": 4,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/39014284707/job/117343056087#step:7:1"
       },
       {
         "name": "Test 3 - Run the test app",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/38041899788/job/114183656570#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/39014284707/job/117343056087#step:8:1"
       },
       {
         "name": "Test 4 - Check go.mod content",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/38041899788/job/114183656570#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/39014284707/job/117343056087#step:9:1"
       },
       {
         "name": "Test 5 - Check module download",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/38041899788/job/114183656570#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/39014284707/job/117343056087#step:10:1"
       },
       {
         "name": "Regression applicability - package manager installed",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/38041899788/job/114183656570#step:11:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/39014284707/job/117343056087#step:11:1"
       }
     ]
   },
@@ -71,7 +71,7 @@
     "regression_applicability": "not_applicable",
     "regression_reason": "package_manager_installed",
     "regression_note": "Regression validation not applicable: tested package installed via package manager in Tests 1-5.",
-    "production_refreshed_at": "2026-10-10T11:18:49.306208+00:00",
+    "production_refreshed_at": "2026-10-17T09:26:27.842721+00:00",
     "publish_state": "published"
   }
 }

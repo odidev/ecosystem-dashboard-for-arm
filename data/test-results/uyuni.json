@@ -5,10 +5,10 @@
     "version": "2026.04"
   },
   "run": {
-    "id": "38041927753",
+    "id": "39014311205",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/38041927753/job/114183729243",
-    "timestamp": "2026-10-10T09:50:58Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/39014311205/job/117343136298",
+    "timestamp": "2026-10-17T07:55:19Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 31,
+    "duration_seconds": 43,
     "details": [
       {
         "name": "Test 1 - Check baseline image pulled",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/38041927753/job/114183729243#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/39014311205/job/117343136298#step:6:1"
       },
       {
         "name": "Test 2 - Verify baseline tag metadata",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/38041927753/job/114183729243#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/39014311205/job/117343136298#step:7:1"
       },
       {
         "name": "Test 3 - Container smoke command",
         "status": "passed",
-        "duration_seconds": 1,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/38041927753/job/114183729243#step:8:1"
+        "duration_seconds": 0,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/39014311205/job/117343136298#step:8:1"
       },
       {
         "name": "Test 4 - Verify image architecture",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/38041927753/job/114183729243#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/39014311205/job/117343136298#step:9:1"
       },
       {
         "name": "Test 5 - Validate Uyuni package footprint",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/38041927753/job/114183729243#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/39014311205/job/117343136298#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 30,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/38041927753/job/114183729243#step:11:1",
+        "duration_seconds": 43,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/39014311205/job/117343136298#step:11:1",
         "current_version": "2026.04",
         "latest_version": "2026.08",
         "next_installed_version": "2026.08",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-10-10T11:18:49.404174+00:00",
+    "production_refreshed_at": "2026-10-17T09:26:27.943044+00:00",
     "publish_state": "published"
   }
 }

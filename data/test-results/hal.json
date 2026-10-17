@@ -5,10 +5,10 @@
     "version": "4.4.0"
   },
   "run": {
-    "id": "38041923393",
+    "id": "39014306704",
     "attempt": "1",
-    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/38041923393/job/114183719278",
-    "timestamp": "2026-10-10T09:52:35Z",
+    "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/39014306704/job/117343122683",
+    "timestamp": "2026-10-17T07:55:15Z",
     "status": "success",
     "runner": {
       "os": "ubuntu-24.04",
@@ -20,43 +20,43 @@
     "passed": 6,
     "failed": 0,
     "skipped": 0,
-    "duration_seconds": 341,
+    "duration_seconds": 339,
     "details": [
       {
         "name": "Test 1 - Check hal binary exists",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/38041923393/job/114183719278#step:6:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/39014306704/job/117343122683#step:6:1"
       },
       {
         "name": "Test 2 - Check HAL version output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/38041923393/job/114183719278#step:7:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/39014306704/job/117343122683#step:7:1"
       },
       {
         "name": "Test 3 - Check HAL help output",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/38041923393/job/114183719278#step:8:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/39014306704/job/117343122683#step:8:1"
       },
       {
         "name": "Test 4 - Check built ARM64 executable",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/38041923393/job/114183719278#step:9:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/39014306704/job/117343122683#step:9:1"
       },
       {
         "name": "Test 5 - Check runtime libraries and architecture",
         "status": "passed",
         "duration_seconds": 0,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/38041923393/job/114183719278#step:10:1"
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/39014306704/job/117343122683#step:10:1"
       },
       {
         "name": "Test 6 - Regression Validation",
         "status": "passed",
-        "duration_seconds": 341,
-        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/38041923393/job/114183719278#step:11:1",
+        "duration_seconds": 339,
+        "url": "https://github.com/odidev/ecosystem-dashboard-for-arm/actions/runs/39014306704/job/117343122683#step:11:1",
         "current_version": "4.4.0",
         "latest_version": "4.4.1",
         "next_installed_version": "4.4.1",
@@ -79,7 +79,7 @@
     "regression_note": "",
     "regression_status": "passed",
     "regression_decision": "next_install_validated",
-    "production_refreshed_at": "2026-10-10T11:18:49.305510+00:00",
+    "production_refreshed_at": "2026-10-17T09:26:27.841999+00:00",
     "publish_state": "published"
   }
 }
